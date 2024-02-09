@@ -1,4 +1,4 @@
-baseURL = 'https://smritipradhan.xyz/'
+baseURL = 'https://pradhansmriti.github.io/smritiweb/'
 languageCode = 'en-us'
 title = 'Smriti Pradhan Site'
 theme = "hugo-ficurinia"
