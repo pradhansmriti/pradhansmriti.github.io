@@ -1,0 +1,9 @@
+[submodule "hugo-ficurinia"]
+	path = hugo-ficurinia
+	url = https://gitlab.com/gabmus/hugo-ficurinia
+[submodule "themes/themes/pinktheme"]
+	path = themes/themes/pinktheme
+	url = https://gitlab.com/gabmus/hugo-ficurinia
+[submodule "themes/pinktheme"]
+	path = themes/pinktheme
+	url = https://gitlab.com/gabmus/hugo-ficurinia
