@@ -1,0 +1,4 @@
+baseURL = 'http://smritipradhan.xyz/'
+languageCode = 'en-us'
+title = 'Smriti Pradhan Site'
+theme='pinktheme' 
