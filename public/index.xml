@@ -1,102 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Smriti Pradhan Site</title>
-    <link>http://smritipradhan.xyz/</link>
-    <description>Recent content on Smriti Pradhan Site</description>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://smritipradhan.xyz/index.xml" rel="self" type="application/rss+xml" /><icon>http://smritipradhan.xyz/img/icon.svg</icon>
-    
-    
+    <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
-      <link>http://smritipradhan.xyz/pages/about/</link>
+      <link>/pages/about/</link>
       <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://smritipradhan.xyz/pages/about/</guid>
-      <description><![CDATA[<p>Hi! I&rsquo;m Smriti Pradhan, a PhD candidate in Physics at <strong>Brandeis University</strong> working with Prof. Michael.F.Hagan. My research primarily focuses on using coarse-grained simulation techniques to understand the assembly of Hepatits B Virus and how it&rsquo;s impeded in the presence of Core-protein Allosteric Modulators (CpAMs).</p>
-<p>I did my undergrad and masters in Physics at Indian Institute of Technology, Kanpur. For my master&rsquo;s thesis research I worked with Prof. Debashish Chowdhury to understand the stochastic process of decision-making and traffic management in ant colonies.</p>
-<p>In my free time I love experimenting with new recipes, learning new crafts, reading and napping.</p>
-]]></description>
-      
+      <guid>/pages/about/</guid>
+      <description>Hi! I&amp;rsquo;m Smriti Pradhan, a PhD candidate in Physics at Brandeis University working with Prof. Michael.F.Hagan. My research primarily focuses on using coarse-grained simulation techniques to understand the assembly of Hepatits B Virus and how it&amp;rsquo;s impeded in the presence of Core-protein Allosteric Modulators (CpAMs).
+I did my undergrad and masters in Physics at Indian Institute of Technology, Kanpur. For my master&amp;rsquo;s thesis research I worked with Prof. Debashish Chowdhury to understand the stochastic process of decision-making and traffic management in ant colonies.</description>
     </item>
-    
-    
     
     <item>
       <title>My very first blogpost</title>
-      <link>http://smritipradhan.xyz/posts/firstpost/</link>
+      <link>/posts/firstpost/</link>
       <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://smritipradhan.xyz/posts/firstpost/</guid>
-      <description><![CDATA[<p>I work on developing coarse-grained models for Virus self assembly, which involves a few steps in the modelling process.</p>
-<ol>
-<li>Develop a coarse-grained model. The more you can reduce the dimensionality the better. But you don&rsquo;t want to be so coarse-grained that the results are abstract and cannot be compared with experiments at all.</li>
-<li>All-atom simulations can be great for</li>
-</ol>
-]]></description>
-      
+      <guid>/posts/firstpost/</guid>
+      <description>I work on developing coarse-grained models for Virus self assembly, which involves a few steps in the modelling process.
+Develop a coarse-grained model. The more you can reduce the dimensionality the better. But you don&amp;rsquo;t want to be so coarse-grained that the results are abstract and cannot be compared with experiments at all. All-atom simulations can be great for </description>
     </item>
-    
-    
     
     <item>
       <title>Mathcheck</title>
-      <link>http://smritipradhan.xyz/posts/mathcheck/</link>
+      <link>/posts/mathcheck/</link>
       <pubDate>Sun, 09 Apr 2023 21:19:53 -0400</pubDate>
       
-      <guid>http://smritipradhan.xyz/posts/mathcheck/</guid>
-      <description><![CDATA[<p>This is an equation I&rsquo;m working on:</p>
-<!-- raw HTML omitted -->
-<p>$$a_4 \ne b_4$$</p>
-]]></description>
-      
+      <guid>/posts/mathcheck/</guid>
+      <description>This is an equation I&amp;rsquo;m working on:
+$$a_4 \ne b_4$$</description>
     </item>
-    
-    
     
     <item>
       <title>YELLOW</title>
-      <link>http://smritipradhan.xyz/posts/yellow/</link>
+      <link>/posts/yellow/</link>
       <pubDate>Sun, 09 Apr 2023 21:15:42 -0400</pubDate>
       
-      <guid>http://smritipradhan.xyz/posts/yellow/</guid>
-      <description><![CDATA[<h1 id="a-little-bit-about-me">A little bit about me</h1>
-<!-- raw HTML omitted -->
-<p>Hi! I&rsquo;m a second year Physics Ph.D. student at Brandeis University. My reserach interests include using computational methods to understand the self-assembly of viruses. I&rsquo;m currently working on using coarse-grained methods to understand the assembly of HBV (Hepatitis B Virus) and how interactions with drug molecules chnages this assembly. To find out more about research interests and projects go here: .</p>
-]]></description>
-      
+      <guid>/posts/yellow/</guid>
+      <description>A little bit about me Hi! I&amp;rsquo;m a second year Physics Ph.D. student at Brandeis University. My reserach interests include using computational methods to understand the self-assembly of viruses. I&amp;rsquo;m currently working on using coarse-grained methods to understand the assembly of HBV (Hepatitis B Virus) and how interactions with drug molecules chnages this assembly. To find out more about research interests and projects go here: .</description>
     </item>
-    
-    
-    
-    
     
     <item>
       <title>Outreach and teaching</title>
-      <link>http://smritipradhan.xyz/pages/outreach/</link>
+      <link>/pages/outreach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://smritipradhan.xyz/pages/outreach/</guid>
-      <description><![CDATA[]]></description>
-      
+      <guid>/pages/outreach/</guid>
+      <description></description>
     </item>
-    
-    
     
     <item>
       <title>Research Experiences</title>
-      <link>http://smritipradhan.xyz/pages/researchexperiences/</link>
+      <link>/pages/researchexperiences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://smritipradhan.xyz/pages/researchexperiences/</guid>
-      <description><![CDATA[<p>Here I write my research</p>
-]]></description>
-      
+      <guid>/pages/researchexperiences/</guid>
+      <description>Here I write my research</description>
     </item>
-    
-    
-    
     
   </channel>
 </rss>

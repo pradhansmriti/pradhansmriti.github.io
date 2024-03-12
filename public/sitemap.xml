@@ -2,37 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://smritipradhan.xyz/pages/about/</loc>
+    <loc>/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://smritipradhan.xyz/posts/firstpost/</loc>
+    <loc>/pages/about/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://smritipradhan.xyz/pages/</loc>
+    <loc>/posts/firstpost/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://smritipradhan.xyz/posts/</loc>
+    <loc>/pages/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://smritipradhan.xyz/</loc>
+    <loc>/posts/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://smritipradhan.xyz/posts/mathcheck/</loc>
+    <loc>/posts/mathcheck/</loc>
     <lastmod>2023-04-09T21:19:53-04:00</lastmod>
   </url><url>
-    <loc>http://smritipradhan.xyz/posts/yellow/</loc>
+    <loc>/posts/yellow/</loc>
     <lastmod>2023-04-09T21:15:42-04:00</lastmod>
   </url><url>
-    <loc>http://smritipradhan.xyz/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>http://smritipradhan.xyz/manifest/index.json</loc>
+    <loc>/pages/outreach/</loc>
   </url><url>
-    <loc>http://smritipradhan.xyz/pages/outreach/</loc>
+    <loc>/pages/researchexperiences/</loc>
   </url><url>
-    <loc>http://smritipradhan.xyz/pages/researchexperiences/</loc>
-  </url><url>
-    <loc>http://smritipradhan.xyz/search/</loc>
-  </url><url>
-    <loc>http://smritipradhan.xyz/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>

@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Smriti Pradhan Site</title>
-    <link>http://smritipradhan.xyz/posts/</link>
-    <description>Recent content in Posts on Smriti Pradhan Site</description>
+    <title>Posts on </title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://smritipradhan.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My very first blogpost</title>
-      <link>http://smritipradhan.xyz/posts/firstpost/</link>
+      <link>/posts/firstpost/</link>
       <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://smritipradhan.xyz/posts/firstpost/</guid>
+      <guid>/posts/firstpost/</guid>
       <description>I work on developing coarse-grained models for Virus self assembly, which involves a few steps in the modelling process.
 Develop a coarse-grained model. The more you can reduce the dimensionality the better. But you don&amp;rsquo;t want to be so coarse-grained that the results are abstract and cannot be compared with experiments at all. All-atom simulations can be great for </description>
     </item>
     
     <item>
       <title>Mathcheck</title>
-      <link>http://smritipradhan.xyz/posts/mathcheck/</link>
+      <link>/posts/mathcheck/</link>
       <pubDate>Sun, 09 Apr 2023 21:19:53 -0400</pubDate>
       
-      <guid>http://smritipradhan.xyz/posts/mathcheck/</guid>
+      <guid>/posts/mathcheck/</guid>
       <description>This is an equation I&amp;rsquo;m working on:
 $$a_4 \ne b_4$$</description>
     </item>
     
     <item>
       <title>YELLOW</title>
-      <link>http://smritipradhan.xyz/posts/yellow/</link>
+      <link>/posts/yellow/</link>
       <pubDate>Sun, 09 Apr 2023 21:15:42 -0400</pubDate>
       
-      <guid>http://smritipradhan.xyz/posts/yellow/</guid>
+      <guid>/posts/yellow/</guid>
       <description>A little bit about me Hi! I&amp;rsquo;m a second year Physics Ph.D. student at Brandeis University. My reserach interests include using computational methods to understand the self-assembly of viruses. I&amp;rsquo;m currently working on using coarse-grained methods to understand the assembly of HBV (Hepatitis B Virus) and how interactions with drug molecules chnages this assembly. To find out more about research interests and projects go here: .</description>
     </item>
     
