@@ -1,7 +1,8 @@
-baseURL = 'https://pradhansmriti.github.io/smritiweb/'
+baseURL = 'https://pradhansmriti.github.io/'
+publishDir = "static"
 languageCode = 'en-us'
 title = 'Smriti Pradhan Site'
-theme = "hugo-ficurinia"
+theme = "pinktheme"
 defaultContentLanguage = "en"
 
 # this will be included in the footer after the current year the site is last

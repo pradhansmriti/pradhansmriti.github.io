@@ -4,63 +4,14 @@
     <title></title>
     <link>/</link>
     <description>Recent content on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About me</title>
-      <link>/pages/about/</link>
-      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <title></title>
+      <link>/</link>
+      <pubDate>Wed, 03 Apr 2024 18:48:27 -0400</pubDate>
       
-      <guid>/pages/about/</guid>
-      <description>Hi! I&amp;rsquo;m Smriti Pradhan, a PhD candidate in Physics at Brandeis University working with Prof. Michael.F.Hagan. My research primarily focuses on using coarse-grained simulation techniques to understand the assembly of Hepatits B Virus and how it&amp;rsquo;s impeded in the presence of Core-protein Allosteric Modulators (CpAMs).
-I did my undergrad and masters in Physics at Indian Institute of Technology, Kanpur. For my master&amp;rsquo;s thesis research I worked with Prof. Debashish Chowdhury to understand the stochastic process of decision-making and traffic management in ant colonies.</description>
-    </item>
-    
-    <item>
-      <title>My very first blogpost</title>
-      <link>/posts/firstpost/</link>
-      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/firstpost/</guid>
-      <description>I work on developing coarse-grained models for Virus self assembly, which involves a few steps in the modelling process.
-Develop a coarse-grained model. The more you can reduce the dimensionality the better. But you don&amp;rsquo;t want to be so coarse-grained that the results are abstract and cannot be compared with experiments at all. All-atom simulations can be great for </description>
-    </item>
-    
-    <item>
-      <title>Mathcheck</title>
-      <link>/posts/mathcheck/</link>
-      <pubDate>Sun, 09 Apr 2023 21:19:53 -0400</pubDate>
-      
-      <guid>/posts/mathcheck/</guid>
-      <description>This is an equation I&amp;rsquo;m working on:
-$$a_4 \ne b_4$$</description>
-    </item>
-    
-    <item>
-      <title>YELLOW</title>
-      <link>/posts/yellow/</link>
-      <pubDate>Sun, 09 Apr 2023 21:15:42 -0400</pubDate>
-      
-      <guid>/posts/yellow/</guid>
-      <description>A little bit about me Hi! I&amp;rsquo;m a second year Physics Ph.D. student at Brandeis University. My reserach interests include using computational methods to understand the self-assembly of viruses. I&amp;rsquo;m currently working on using coarse-grained methods to understand the assembly of HBV (Hepatitis B Virus) and how interactions with drug molecules chnages this assembly. To find out more about research interests and projects go here: .</description>
-    </item>
-    
-    <item>
-      <title>Outreach and teaching</title>
-      <link>/pages/outreach/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/outreach/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research Experiences</title>
-      <link>/pages/researchexperiences/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/researchexperiences/</guid>
-      <description>Here I write my research</description>
+      <guid>/</guid>
+      <description>hi</description>
     </item>
     
   </channel>
