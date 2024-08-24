@@ -1,0 +1,53 @@
+baseurl: "https://pradhansmriti.github.io"  # please update this to your actual URL
+languageCode: "en-us"
+title: "Smriti Pradhan Site"
+theme: "hugo-xmin"
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  post: "/post/:year/:month/:day/:slug/"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: About
+      url: "about/"
+      weight: 2
+    - name: Posts
+      url: "post/"
+      weight: 3
+    - name: Tags
+      url: "tags/"
+      weight: 4
+    - name: Outreach
+      url: "outreach/"
+      weight: 5
+    - name: ResearchExperiences
+      url: "researchexperiences/"
+      weight: 6
+    - name: Subscribe
+      url: "index.xml"
+
+params:
+  description: "A website built through Hugo."
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
