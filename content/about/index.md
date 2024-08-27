@@ -10,3 +10,6 @@ Hi! I'm Smriti Pradhan, a PhD candidate in Physics at **Brandeis University** wo
 I did my undergrad and masters in Physics at Indian Institute of Technology, Kanpur. For my master's thesis research I worked with Prof. Debashish Chowdhury to understand the stochastic process of decision-making and traffic management in ant colonies.
 
 In my free time I love experimenting with new recipes, learning new crafts, reading and napping.
+
+
+![](../images/postpics/Smriti.jpeg)

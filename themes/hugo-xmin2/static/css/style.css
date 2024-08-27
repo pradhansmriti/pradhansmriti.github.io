@@ -3,8 +3,6 @@ body {
   margin: auto;
   padding: 1em;
   line-height: 1.5;
-  background: #090909;
-  color:#F0186A;
 }
 
 /* header and footer areas */
@@ -12,10 +10,9 @@ body {
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #090909;
+  background: #eee;
   padding: 5px;
   border-radius: 5px;
-  color: #F0186A;
 }
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
@@ -32,7 +29,7 @@ pre {
   padding: 1em;
   overflow-x: auto;
 }
-code { background: #655555; }
+code { background: #f9f9f9; }
 pre code { background: none; }
 
 /* misc elements */
