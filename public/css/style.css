@@ -31,8 +31,11 @@ pre {
   box-shadow: 5px 5px 5px #eee;
   padding: 1em;
   overflow-x: auto;
+  color:#F0186A;
 }
-code { background: #655555; }
+code { background: #655555; 
+color:#F0186A;
+}
 pre code { background: none; }
 
 /* misc elements */
@@ -42,6 +45,7 @@ blockquote {
   background: #f9f9f9;
   border-left: 5px solid #ccc;
   padding: 3px 1em 3px;
+  color:#F0186A;
 }
 
 table {

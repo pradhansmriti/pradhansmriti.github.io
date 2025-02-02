@@ -2,32 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Smriti Pradhan Site</title>
-    <link>https://pradhansmriti.github.io/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on Smriti Pradhan Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://pradhansmriti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My very first blogpost</title>
-      <link>https://pradhansmriti.github.io/post/2024/01/31/my-very-first-blogpost/</link>
-      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://pradhansmriti.github.io/post/2024/01/31/my-very-first-blogpost/</guid>
-      <description>I work on developing coarse-grained models for Virus self assembly, which involves a few steps in the modelling process.&#xA;Develop a coarse-grained model. The more you can reduce the dimensionality the better. But you don&amp;rsquo;t want to be so coarse-grained that the results are abstract and cannot be compared with experiments at all. All-atom simulations can be great for </description>
-    </item>
-    <item>
-      <title>Mathcheck</title>
-      <link>https://pradhansmriti.github.io/post/2023/04/09/mathcheck/</link>
-      <pubDate>Sun, 09 Apr 2023 21:19:53 -0400</pubDate>
-      <guid>https://pradhansmriti.github.io/post/2023/04/09/mathcheck/</guid>
-      <description>This is an equation I&amp;rsquo;m working on:&#xA;$$a_4 \ne b_4$$ </description>
-    </item>
-    <item>
-      <title>YELLOW</title>
-      <link>https://pradhansmriti.github.io/post/2023/04/09/yellow/</link>
-      <pubDate>Sun, 09 Apr 2023 21:15:42 -0400</pubDate>
-      <guid>https://pradhansmriti.github.io/post/2023/04/09/yellow/</guid>
-      <description>A little bit about me Hi! I&amp;rsquo;m a second year Physics Ph.D. student at Brandeis University. My reserach interests include using computational methods to understand the self-assembly of viruses. I&amp;rsquo;m currently working on using coarse-grained methods to understand the assembly of HBV (Hepatitis B Virus) and how interactions with drug molecules chnages this assembly. To find out more about research interests and projects go here: .</description>
+      <title>My first blogpost</title>
+      <link>http://localhost:1313/post/2024/10/05/my-first-blogpost/</link>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024/10/05/my-first-blogpost/</guid>
+      <description>Through my three years of PhD and two years of active research in the field of coarse-grained molecular dynamics I have had the opportunity to work with different MD engines. Hence I though it might be helpful to blog my experience with each of these softwares used.</description>
     </item>
   </channel>
 </rss>
