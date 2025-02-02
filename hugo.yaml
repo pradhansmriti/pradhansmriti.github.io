@@ -24,8 +24,8 @@ menu:
     - name: Outreach
       url: "outreach/"
       weight: 5
-    - name: ResearchExperiences
-      url: "researchexperiences/"
+    - name: Research
+      url: "research/"
       weight: 6
     - name: Subscribe
       url: "index.xml"
