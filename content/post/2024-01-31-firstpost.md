@@ -3,6 +3,7 @@ title: "My first blogpost: This time for sure"
 Description: "Unoriginal thoughts of a 21st century woman"
 layout: "First blogpost"
 date: 2025-02-02
+tags: ["blogging","first post"]
 ---
 I have a confession to make. This website has been in the development stage for more than a year. I have had a layout ready this whole time. I figured out how to make Hugo work to my liking for months. But the "rate determining step" has been my apprehension to write that first post.
  

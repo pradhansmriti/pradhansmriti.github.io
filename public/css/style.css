@@ -3,8 +3,9 @@ body {
   margin: auto;
   padding: 1em;
   line-height: 1.5;
-  background: #090909;
-  color:#F0186A;
+  background:  #000000;
+  color:#f2edef;
+  font-size:30px;
 }
 
 /* header and footer areas */
@@ -47,7 +48,9 @@ blockquote {
   padding: 3px 1em 3px;
   color:#F0186A;
 }
-
+a:visited {
+	    color:#F0186A; /* Change to any color you want */
+    }
 table {
   margin: auto;
   border-top: 1px solid #666;

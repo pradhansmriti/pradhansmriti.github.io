@@ -18,17 +18,7 @@ menu:
     - name: Posts
       url: "post/"
       weight: 3
-    - name: Tags
-      url: "tags/"
-      weight: 4
-    - name: Outreach
-      url: "outreach/"
-      weight: 5
-    - name: Research
-      url: "research/"
-      weight: 6
-    - name: Subscribe
-      url: "index.xml"
+
 
 params:
   description: "A website built through Hugo."
