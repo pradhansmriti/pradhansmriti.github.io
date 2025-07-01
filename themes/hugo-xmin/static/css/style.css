@@ -5,7 +5,7 @@ body {
   line-height: 1.5;
   background:  #000000;
   color:#f2edef;
-  font-size:30px;
+  font-size:22px;
 }
 
 /* header and footer areas */
@@ -50,7 +50,11 @@ blockquote {
   color:#F0186A;
 }
 a:visited {
-	    color:#F0186A; /* Change to any color you want */
+	    color:#F0186A; /* Change to any color you want*/ 
+    }
+a {
+	    color:#F0186A; /* Change to any color you want*/ 
+	    text-decoration: none;
     }
 table {
   margin: auto;
