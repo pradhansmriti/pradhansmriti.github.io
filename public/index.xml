@@ -1,46 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Smriti Pradhan Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Smriti Pradhan Site</description>
+    <title>Smriti&#39;s webpage</title>
+    <link>http://localhost:63957/</link>
+    <description>Recent content on Smriti&#39;s webpage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63957/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My first blogpost: This time for sure</title>
-      <link>http://localhost:1313/post/2025/02/02/my-first-blogpost-this-time-for-sure/</link>
+      <link>http://localhost:63957/post/2025/02/02/my-first-blogpost-this-time-for-sure/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2025/02/02/my-first-blogpost-this-time-for-sure/</guid>
+      <guid>http://localhost:63957/post/2025/02/02/my-first-blogpost-this-time-for-sure/</guid>
       <description>I have a confession to make. This website has been in the development stage for more than a year. I have had a layout ready this whole time. I figured out how to make Hugo work to my liking for months. But the &amp;ldquo;rate determining step&amp;rdquo; has been my apprehension to write that first post.&#xA;I have never written a blog post, countless dear diary entries sure but I haven&amp;rsquo;t ever put my partially cooked thoughts out on the internet before.</description>
     </item>
     <item>
       <title>About me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <link>http://localhost:63957/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63957/about/</guid>
       <description>Hi! I&amp;rsquo;m Smriti Pradhan, a PhD candidate in Physics at Brandeis University working with Prof. Michael.F.Hagan. My research primarily focuses on using coarse-grained simulation techniques to understand the assembly of Hepatits B Virus and how it&amp;rsquo;s impeded in the presence of Core-protein Allosteric Modulators (CpAMs).&#xA;I did my undergrad and masters in Physics at Indian Institute of Technology, Kanpur. For my master&amp;rsquo;s thesis research I worked with Prof. Debashish Chowdhury to understand the stochastic process of decision-making and traffic management in ant colonies.</description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:1313/post/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/1/01/01/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Outreach and teaching</title>
-      <link>http://localhost:1313/outreach/</link>
+      <link>http://localhost:63957/outreach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/outreach/</guid>
+      <guid>http://localhost:63957/outreach/</guid>
       <description>boop</description>
     </item>
     <item>
       <title>Research Experiences</title>
-      <link>http://localhost:1313/research/</link>
+      <link>http://localhost:63957/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/</guid>
+      <guid>http://localhost:63957/research/</guid>
       <description>Here I write my research</description>
     </item>
   </channel>

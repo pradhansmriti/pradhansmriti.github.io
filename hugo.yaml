@@ -1,6 +1,6 @@
 baseurl: "https://pradhansmriti.github.io"  # please update this to your actual URL
 languageCode: "en-us"
-title: "Smriti Pradhan Site"
+title: "Smriti's webpage"
 theme: "hugo-xmin"
 footnotereturnlinkcontents: "↩"
 
