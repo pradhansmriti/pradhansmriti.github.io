@@ -26,6 +26,12 @@ hr {
   border-style: dashed;
   color: #ddd;
 }
+footer a i {
+	  color: #444;
+	    transition: color 0.2s;
+	    height:50px;
+	    width:auto;
+    }
 
 /* code */
 pre {
