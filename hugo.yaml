@@ -5,6 +5,7 @@ theme: "hugo-xmin"
 footnotereturnlinkcontents: "↩"
 
 permalinks:
+  #post: "/post/:month/:day/:year/:slug/"
   post: "/post/:year/:month/:day/:slug/"
 
 menu:
@@ -18,8 +19,8 @@ menu:
     - name: Posts
       url: "post/"
       weight: 3
-
-
+    - name: Projects
+      url: "research/"
 params:
   description: "A website built through Hugo."
 

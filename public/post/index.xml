@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Smriti&#39;s webpage</title>
-    <link>http://localhost:63112/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on Smriti&#39;s webpage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:63112/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My lessons from gaming</title>
+      <link>http://localhost:1313/post/2025/05/07/my-lessons-from-gaming/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2025/05/07/my-lessons-from-gaming/</guid>
+      <description>For anyone who knows me, my absolute lack of hand-eye coordination is pretty obvious. A scooter ride gone bad in high school, left me with a half functioning elbow and two neourologically numb fingers on my left hand. So one of the biggest reason that I&amp;rsquo;m a strictly computational scientist is my extremely shaky hands and general propensity to drop things. I think the most challenging course for me was my second year Optics lab course at IITK.</description>
+    </item>
     <item>
       <title>My first blogpost: This time for sure</title>
-      <link>http://localhost:63112/post/2025/02/02/my-first-blogpost-this-time-for-sure/</link>
+      <link>http://localhost:1313/post/2025/02/02/my-first-blogpost-this-time-for-sure/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63112/post/2025/02/02/my-first-blogpost-this-time-for-sure/</guid>
+      <guid>http://localhost:1313/post/2025/02/02/my-first-blogpost-this-time-for-sure/</guid>
       <description>I have a confession to make. This website has been in the development stage for more than a year. I have had a layout ready this whole time. I figured out how to make Hugo work to my liking for months. But the &amp;ldquo;rate determining step&amp;rdquo; has been my apprehension to write that first post.&#xA;I have never written a blog post, countless dear diary entries sure but I haven&amp;rsquo;t ever put my partially cooked thoughts out on the internet before.</description>
     </item>
   </channel>
