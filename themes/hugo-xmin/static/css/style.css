@@ -16,7 +16,7 @@ body {
   background: #090909;
   padding: 5px;
   /*border-radius: 5px;*/
-  color: #F0186A;
+  color: #ffc7ec;
   border-bottom: 4px solid #ffc7ec
 }
 .menu, .article-meta, footer { text-align: center; }
@@ -24,7 +24,7 @@ body {
 footer a { text-decoration: none; }
 hr {
   border-style: dashed;
-  color: #ddd;
+  color:  #ffc7ec;
 }
 footer a i {
 	  color: #444;
@@ -39,10 +39,10 @@ pre {
   box-shadow: 5px 5px 5px #eee;
   padding: 1em;
   overflow-x: auto;
-  color:#F0186A;
+  color:#ffc7ec;
 }
 code { background: #655555; 
-color:#F0186A;
+color:#ffc7ec;
 }
 pre code { background: none; }
 
@@ -53,13 +53,13 @@ blockquote {
   background: #f9f9f9;
   border-left: 5px solid #ccc;
   padding: 3px 1em 3px;
-  color:#F0186A;
+  color:#ffc7ec;
 }
 a:visited {
-	    color:#F0186A; /* Change to any color you want*/ 
+	    color:#ffc7ec; /* Change to any color you want*/ 
     }
 a {
-	    color:#F0186A; /* Change to any color you want*/ 
+	    color:#ffc7ec; /* Change to any color you want*/ 
 	    text-decoration: none;
     }
 table {
