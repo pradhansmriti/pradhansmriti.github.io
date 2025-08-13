@@ -5,6 +5,11 @@ date: 2024-04-03T18:48:27-04:00
 ## Home page
 Hi! Welcome to my website where I post my insights on grad school, research and life.
 Read more about me [here](/about).
+
+{{< figure src="../images/postpics/smriti_website.png" width="600px" height="auto" caption="This is me fighting viruses with my metaphorical sword: simulations." >}}
+
+
+
 ## Projects
 Most recent projects:
 
