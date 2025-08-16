@@ -6,9 +6,7 @@ date: 2024-04-03T18:48:27-04:00
 Hi! Welcome to my website where I post my insights on grad school, research and life.
 Read more about me [here](/about).
 
-{{< figure src="../images/postpics/smriti_website.png" width="700px" height="500px" caption="This is me fighting viruses with my metaphorical sword: coarse-grained simulations.">}}
-<span style="font-size:10px; font-weight:bold;">Note: For all intended purposes this figure was made by my 5year old cousin.</span>
-
+{{< figure src="../images/postpics/ezgif.com-animated-gif-maker.gif" width="400px" height="auto" caption="Two friendly proteins interacting with each other.">}}
 
 ## Projects
 Most recent projects:

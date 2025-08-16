@@ -70,3 +70,13 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+.site-header-figure img {
+	  width: 180px;
+	    height: 180px;   /* adjust for your liking */
+	      object-fit: cover;   /* crops nicely */
+	        display: block;
+		  margin: 0 auto;       /* center if smaller than width */
+		  border-radius: 50%; 
+		  border: 3px solid #ffc7ec;
+	  }
+
