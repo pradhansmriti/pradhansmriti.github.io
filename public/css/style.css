@@ -10,22 +10,25 @@ body {
 
 /* header and footer areas */
 .menu { padding: 0; }
-.menu li { display: inline-block; }
+.menu li { 
+	display: inline-block;
+	margin: 12px;
+}
 .article-meta, .menu a {
   text-decoration: none;
   background: #090909;
-  padding: 5px;
-  /*border-radius: 5px;*/
+  padding: 6px;
+  border-radius: 10%;
   color: #ffc7ec;
-  border-bottom: 4px solid #ffc7ec
+    box-shadow: 0 0 15px #ffc7ec;
 }
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 hr {
-  border-style: dashed;
+  border: 2px solid;
   color:  #ffc7ec;
-}
+  }
 footer a i {
 	  color: #444;
 	    transition: color 0.2s;
@@ -74,9 +77,10 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
 	  width: 180px;
 	    height: 180px;   /* adjust for your liking */
 	      object-fit: cover;   /* crops nicely */
-	        display: block;
-		  margin: 0 auto;       /* center if smaller than width */
+	      	display: block;
+		margin: 0 auto;       /* center if smaller than width */
 		  border-radius: 50%; 
-		  border: 3px solid #ffc7ec;
+		  /*border: 3px solid #ffc7ec;*/
+		  box-shadow: 0 0 20px #ffc7ec;
 	  }
 
