@@ -1,0 +1,7 @@
+body {
+	  background-image: url('/images/fish_schoolv2.png'); /* put your image in /static/images/ */
+	    background-size: cover;
+	      background-repeat: no-repeat;
+	        background-position: center;
+	}
+

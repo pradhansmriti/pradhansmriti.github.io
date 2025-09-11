@@ -5,8 +5,6 @@ date: 2024-04-03T18:48:27-04:00
 Hi! Welcome to my website where I post my insights on grad school, research and life.
 Read more about me [here](/about).
 
-{{< figure src="../images/postpics/ezgif.com-animated-gif-maker.gif" width="400px" height="auto" caption="Two friendly proteins interacting with each other.">}}
-
 ## Projects
 Most recent projects:
 - <span style="color: #ffc7ec;">*Kinetic monte carlo simulations for HBV*:</span> Part of my PhD thesis has involved working on understanding effect of different drug on HBV assembly using coarse-grained Monte Carlo simulations. [(Code)](https://github.com/pradhansmriti/hbv_dimerdrug)

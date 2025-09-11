@@ -10,5 +10,7 @@ I did my undergrad and masters in Physics at Indian Institute of Technology, Kan
 
 In my free time I love experimenting with new recipes, learning new crafts, reading and napping.
 
+{{< figure src="../images/postpics/ezgif.com-animated-gif-maker.gif" width="400px" height="auto" caption="Two friendly proteins interacting with each other.">}}
 
+#
 ![](../images/postpics/Smriti.jpeg)
