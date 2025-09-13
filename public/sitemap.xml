@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/post/2025/05/07/my-lessons-from-gaming/</loc>
+    <loc>http://localhost:60693/post/2025/05/07/my-lessons-from-gaming/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>http://localhost:60693/post/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/2025/02/02/my-first-blogpost-this-time-for-sure/</loc>
+    <loc>http://localhost:60693/post/2025/02/02/my-first-blogpost-this-time-for-sure/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:60693/</loc>
     <lastmod>2024-04-03T18:48:27-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:60693/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:60693/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/outreach/</loc>
+    <loc>http://localhost:60693/outreach/</loc>
   </url><url>
-    <loc>http://localhost:1313/research/</loc>
+    <loc>http://localhost:60693/research/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:60693/tags/</loc>
   </url>
 </urlset>
