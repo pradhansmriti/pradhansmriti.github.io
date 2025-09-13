@@ -1,8 +1,3 @@
----
-title: "About me"
-Description: "Making the Complex Simple and Easy to Understand!"
-layout: "about"
----
 Hi! I'm Smriti Pradhan, a PhD candidate in Physics at **Brandeis University** working with Prof. Michael.F.Hagan. My research primarily focuses on using coarse-grained simulation techniques to understand the assembly of Hepatits B Virus and how it's impeded in the presence of Core-protein Allosteric Modulators (CpAMs).
 
 
