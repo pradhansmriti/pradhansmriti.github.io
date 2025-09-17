@@ -16,11 +16,12 @@ body {
 }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #090909;
-  padding: 6px;
-  border-radius: 10%;
+  /*background: #090909;*/
+  /*padding: 6px;*/
+  /*border-radius: 50%;*/
   color: #ffc7ec;
-    box-shadow: 0 0 15px #ffc7ec;
+    box-shadow: 0 0 10px #ffc7ec;
+    font-size:26px;
 }
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
@@ -30,7 +31,7 @@ hr {
   color:  #ffc7ec;
   }
 footer a i {
-	  color: #444;
+	  color: #ffc7ec;
 	    transition: color 0.2s;
 	    height:50px;
 	    width:auto;
