@@ -16,11 +16,11 @@ body {
 }
 .article-meta, .menu a {
   text-decoration: none;
-  /*background: #090909;*/
+  background: none;
   /*padding: 6px;*/
   /*border-radius: 50%;*/
   color: #ffc7ec;
-    box-shadow: 0 0 10px #ffc7ec;
+    /*box-shadow: 0 0 10px #ffc7ec;*/
     font-size:26px;
 }
 .menu, .article-meta, footer { text-align: center; }
