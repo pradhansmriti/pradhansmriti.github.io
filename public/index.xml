@@ -34,7 +34,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>Hi! I&amp;rsquo;m Smriti Pradhan, a PhD candidate in Physics at Brandeis University working with Prof. Michael.F.Hagan. My research primarily focuses on using coarse-grained simulation techniques to understand the assembly of Hepatits B Virus and how it&amp;rsquo;s impeded in the presence of Core-protein Allosteric Modulators (CpAMs).&#xA;I did my undergrad and masters in Physics at Indian Institute of Technology, Kanpur. For my master&amp;rsquo;s thesis research I worked with Prof. Debashish Chowdhury to understand the stochastic process of decision-making and traffic management in ant colonies.</description>
+      <description>I am a PhD candidate in Physics with a strong background in computational modeling, statistical mechanics, and machine learning. My academic journey began with a fascination for mathematics and problem solving, which evolved into applying advanced computational methods to understand complex systems.&#xA;For my Bachelor’s and Master’s thesis, I developed Monte Carlo simulations for ant traffic flow models and applied stochastic models like Fokker–Planck equations to study collective decision-making in ant colonies.</description>
     </item>
     <item>
       <title>Outreach and teaching</title>
@@ -48,7 +48,7 @@
       <link>http://localhost:1313/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/</guid>
-      <description>List of my most recent projects.</description>
+      <description>List of my most recent projects. Addition of content a work in progress just like me :)</description>
     </item>
   </channel>
 </rss>

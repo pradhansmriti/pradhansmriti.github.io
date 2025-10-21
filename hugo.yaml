@@ -21,6 +21,9 @@ menu:
       weight: 3
     - name: Projects
       url: "research/"
+      weight: 4
+    #- name: Foraging
+     # url: "links/"
 params:
   description: "A website built through Hugo."
 
@@ -42,3 +45,4 @@ markup:
           inline:
           - - \(
             - \)
+
