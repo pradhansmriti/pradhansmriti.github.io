@@ -13,7 +13,7 @@
       <link>http://localhost:1313/post/2025/09/17/why-i-love-markov-state-models-and-so-should-you/</link>
       <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2025/09/17/why-i-love-markov-state-models-and-so-should-you/</guid>
-      <description>In this post I&amp;rsquo;ll talk about a tool I have used quite extensively in my research and which is very close to my heart. Over the course of the post we&amp;rsquo;ll go into understanding:&#xA;What is markov property? State of the system at a future time only depends on state of the system currently and not history of the system. This means if we know what the system looks like currently we can predict the state for future time steps.</description>
+      <description>In this post I&amp;rsquo;ll talk about a tool I have used quite extensively in my research and which is very close to my heart. Over the course of the post we&amp;rsquo;ll go into understanding:&#xA;History of markov models What is markov property? For a deterministic process it follows a certain set of rules and we can determine the state of the system at any given time. Any given example of it would be predefined forces without any random noise.</description>
     </item>
     <item>
       <title>My lessons from gaming</title>
