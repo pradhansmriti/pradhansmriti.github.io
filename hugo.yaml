@@ -26,6 +26,27 @@ menu:
      # url: "links/"
 params:
   description: "A website built through Hugo."
+  
+  # Giscus comments configuration
+  giscus:
+    repo: "pradhansmriti/pradhansmriti.github.io"  # Your GitHub repository
+    repoId: "R_kgDOLe_jGA"  # You'll need to get this from giscus.app
+    category: "General"  # GitHub Discussions category
+    categoryId: ""  # You'll need to get this from giscus.app
+    mapping: "pathname"  # How to map pages to discussions
+    reactionsEnabled: "1"  # Enable emoji reactions
+    emitMetadata: "0"  # Emit discussion metadata
+    inputPosition: "bottom"  # Position of comment box
+    theme: "preferred_color_scheme"  # Theme (auto, light, dark)
+    lang: "en"  # Language
+    loading: "lazy"  # Loading mode
+    
+  # Alternative: Utterances comments (simpler setup)
+  # Uncomment and use this instead of giscus if you prefer
+  # utterances:
+  #   repo: "pradhansmriti/pradhansmriti.github.io"
+  #   issueTerm: "pathname"  # pathname, url, title, og:title
+  #   theme: "github-light"  # github-light, github-dark, preferred-color-scheme
 
 markup:
   highlight:

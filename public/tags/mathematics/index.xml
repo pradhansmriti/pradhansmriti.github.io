@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathematics on Smriti Pradhan</title>
+    <link>http://localhost:1313/tags/mathematics/</link>
+    <description>Recent content in Mathematics on Smriti Pradhan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Love Markov State Models (And So Should You)</title>
+      <link>http://localhost:1313/post/2025/09/17/why-i-love-markov-state-models-and-so-should-you/</link>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2025/09/17/why-i-love-markov-state-models-and-so-should-you/</guid>
+      <description>&lt;p&gt;Markov State Models (MSMs) are one of those mathematical tools that, once you understand them, you start seeing applications everywhere. As someone who has used them extensively in my research, I wanted to share why I find them so powerful and versatile. Over the course of this post, we&amp;rsquo;ll explore their history, fundamentals, and applications that extend far beyond their traditional use in computational biochemistry.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-brief-history&#34;&gt;A Brief History&lt;/h2&gt;&#xA;&lt;p&gt;The foundation for what we now call Markov processes was laid by Russian mathematician &lt;strong&gt;Andrey Markov&lt;/strong&gt; in 1906. His work on chains of dependent random variables would eventually become one of the most important concepts in probability theory and has applications spanning from weather prediction to protein folding.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+<main>
+{{ .Content }}
+
+<!-- Add comments section only for posts -->
+{{ if eq .Section "post" }}
+    {{ partial "comments.html" . }}
+{{ end }}
+</main>
+
+{{ partial "footer.html" . }}

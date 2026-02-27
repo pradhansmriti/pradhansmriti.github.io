@@ -1,0 +1,27 @@
+<!-- Alternative: Utterances Comments (simpler setup) -->
+{{ if .Site.Params.utterances.repo }}
+<div id="comments" class="comments-section">
+    <h3>Comments</h3>
+    <script src="https://utteranc.es/client.js"
+        repo="{{ .Site.Params.utterances.repo }}"
+        issue-term="{{ .Site.Params.utterances.issueTerm | default "pathname" }}"
+        theme="{{ .Site.Params.utterances.theme | default "github-light" }}"
+        crossorigin="anonymous"
+        async>
+    </script>
+</div>
+
+<style>
+.comments-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.comments-section h3 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 1.2rem;
+}
+</style>
+{{ end }}
