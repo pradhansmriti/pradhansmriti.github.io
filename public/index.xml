@@ -34,7 +34,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;I am a PhD candidate in Physics with a strong background in computational modeling, statistical mechanics, and machine learning. My academic journey began with a fascination for mathematics and problem solving, which evolved into applying advanced computational methods to understand complex systems.&lt;/p&gt;&#xA;&lt;p&gt;For my Bachelor’s and Master’s thesis, I developed Monte Carlo simulations for ant traffic flow models and applied stochastic models like Fokker–Planck equations to study collective decision-making in ant colonies. These projects helped me develop a passion for using computational methods to analyze emergent behaviors.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I develop scalable machine learning systems to simplify complex simulations and data, improving efficiency and reducing costs.&lt;/p&gt;&#xA;&lt;p&gt;I am a PhD candidate in Physics specializing in machine learning, simulation, and high-performance computing. My research models effect of protein-protein interaction on viral assembly and converts high-dimensional physical systems into efficient computational frameworks.&lt;/p&gt;&#xA;&lt;p&gt;Recently, I developed a machine learning–optimized coarse-grained elastic network model for Hepatitis B virus assembly using OpenMM and NAMD. By learning parameters from all-atom simulations, I achieved:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Outreach and teaching</title>
