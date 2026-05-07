@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Biophysics on Smriti Pradhan</title>
-    <link>http://localhost:1313/tags/biophysics/</link>
-    <description>Recent content in Biophysics on Smriti Pradhan</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/biophysics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Kinetic Monte Carlo Simulations for HBV</title>
-      <link>http://localhost:1313/projects/hbv-monte-carlo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/hbv-monte-carlo/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Add a detailed overview of this project here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;&#xA;&lt;p&gt;Describe your simulation methods, parameters, and approach.&lt;/p&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;&#xA;&lt;p&gt;Add figures, plots, and key findings here.&lt;/p&gt;&#xA;&lt;!-- Example image:&#xA;![Assembly pathway](/images/your-figure.png)&#xA;--&gt;&#xA;&lt;!-- Example video:&#xA;&lt;video controls width=&#34;100%&#34;&gt;&#xA;  &lt;source src=&#34;http://localhost:1313/videos/your-simulation.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xA;&lt;/video&gt;&#xA;--&gt;&#xA;&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;&#xA;&lt;p&gt;The code for this project is available on &lt;a href=&#34;https://github.com/pradhansmriti/hbv_dimerdrug&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Biophysics on Smriti Pradhan</title><link>https://pradhansmriti.github.io/tags/biophysics/</link><description>Recent content in Biophysics on Smriti Pradhan</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pradhansmriti.github.io/tags/biophysics/index.xml" rel="self" type="application/rss+xml"/><item><title>Kinetic Monte Carlo Simulations for HBV</title><link>https://pradhansmriti.github.io/projects/hbv-monte-carlo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pradhansmriti.github.io/projects/hbv-monte-carlo/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Add a detailed overview of this project here.&lt;/p&gt;
+&lt;h2 id="methods"&gt;Methods&lt;/h2&gt;
+&lt;p&gt;Describe your simulation methods, parameters, and approach.&lt;/p&gt;
+&lt;h2 id="results"&gt;Results&lt;/h2&gt;
+&lt;p&gt;Add figures, plots, and key findings here.&lt;/p&gt;
+&lt;!-- Example image:
+![Assembly pathway](/images/your-figure.png)
+--&gt;
+&lt;!-- Example video:
+&lt;video controls width="100%"&gt;
+ &lt;source src="https://pradhansmriti.github.io/videos/your-simulation.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+--&gt;
+&lt;h2 id="code"&gt;Code&lt;/h2&gt;
+&lt;p&gt;The code for this project is available on &lt;a href="https://github.com/pradhansmriti/hbv_dimerdrug"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

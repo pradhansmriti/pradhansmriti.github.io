@@ -1,6 +1,0 @@
----
-title: "Projects"
-Description: "Most recent research projects I have been involved in"
-layout: "research"
----
-List of my most recent projects.
