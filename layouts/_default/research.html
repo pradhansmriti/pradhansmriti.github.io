@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+<main>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <div class="projects-grid">
+    {{ range .Site.Data.projects }}
+    <div class="project-card">
+      {{ if .image }}
+      <div class="project-preview">
+        <img src="{{ .image }}" alt="{{ .title }} preview">
+      </div>
+      {{ end }}
+      <div class="project-info">
+        <h3 class="project-title">{{ .title }}</h3>
+        <p class="project-description">{{ .description }}</p>
+        {{ if .tags }}
+        <div class="project-tags">
+          {{ range .tags }}<span class="tag">{{ . }}</span>{{ end }}
+        </div>
+        {{ end }}
+        <div class="project-links">
+          {{ if .github }}
+          <a href="{{ .github }}" target="_blank" rel="noopener" class="project-link">
+            <i class="fab fa-github"></i> Code
+          </a>
+          {{ end }}
+          {{ if .demo }}
+          <a href="{{ .demo }}" target="_blank" rel="noopener" class="project-link">
+            <i class="fas fa-external-link-alt"></i> Demo
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</main>
+
+{{ partial "footer.html" . }}
