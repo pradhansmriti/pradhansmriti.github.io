@@ -4,7 +4,7 @@
   {{ .Content }}
 
   <div class="projects-grid">
-    {{ range sort (where .Site.Pages "Section" "projects") "Params.weight" }}
+    {{ range sort (where (where .Site.Pages "Section" "projects") "Kind" "page") "Params.weight" }}
     <a href="{{ .Permalink }}" class="project-card-link">
       <div class="project-card">
         {{ with .Params.image }}
