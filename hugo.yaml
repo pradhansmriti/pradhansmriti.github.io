@@ -20,7 +20,7 @@ menu:
       url: "post/"
       weight: 3
     - name: Projects
-      url: "research/"
+      url: "projects/"
       weight: 4
     #- name: Foraging
      # url: "links/"
