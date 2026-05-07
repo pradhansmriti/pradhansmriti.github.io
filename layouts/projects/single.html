@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+<main>
+  <div class="project-detail">
+    <div class="project-detail-header">
+      {{ with .Params.image }}
+      <div class="project-detail-hero">
+        <img src="{{ . }}" alt="{{ $.Title }}">
+      </div>
+      {{ end }}
+      <h1>{{ .Title }}</h1>
+      <p class="project-detail-desc">{{ .Params.description }}</p>
+      {{ with .Params.tags }}
+      <div class="project-tags">
+        {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+      </div>
+      {{ end }}
+      <div class="project-detail-links">
+        {{ with .Params.github }}
+        <a href="{{ . }}" target="_blank" rel="noopener" class="project-link">
+          <i class="fab fa-github"></i> Code
+        </a>
+        {{ end }}
+        {{ with .Params.demo }}
+        <a href="{{ . }}" target="_blank" rel="noopener" class="project-link">
+          <i class="fas fa-external-link-alt"></i> Demo
+        </a>
+        {{ end }}
+      </div>
+    </div>
+    <hr>
+    <div class="project-detail-body">
+      {{ .Content }}
+    </div>
+    <div class="project-back">
+      <a href="/research/" class="project-link">← Back to Projects</a>
+    </div>
+  </div>
+</main>
+
+{{ partial "footer.html" . }}
