@@ -1,0 +1,238 @@
+{{ partial "header.html" . }}
+<main>
+
+<div class="resume-page">
+
+  <div class="resume-toggle-bar">
+    <span class="resume-toggle-label">Focus:</span>
+    <div class="resume-toggle-switch" id="resumeToggle">
+      <button class="toggle-btn active" data-target="comp-sci" onclick="switchResume('comp-sci')">
+        Computational Scientist
+      </button>
+      <button class="toggle-btn" data-target="ml" onclick="switchResume('ml')">
+        ML Engineer
+      </button>
+    </div>
+    <a class="resume-download-btn" id="resumeDownload" href="#" download>
+      <i class="fa fa-download"></i> Download PDF
+    </a>
+  </div>
+
+  <!-- Computational Scientist Resume -->
+  <div class="resume-view" id="resume-comp-sci">
+    <div class="resume-header">
+      <h1>Smriti Pradhan</h1>
+      <div class="resume-contact">
+        <span><i class="fa fa-envelope"></i> smritipradhan98@gmail.com</span>
+        <span><i class="fa fa-globe"></i> pradhansmriti.github.io</span>
+        <span><i class="fa fa-github"></i> pradhansmriti</span>
+      </div>
+      <p class="resume-tagline">PhD Candidate in Physics · Computational Scientist · HPC &amp; Simulation</p>
+    </div>
+
+    <section class="resume-section">
+      <h2>Summary</h2>
+      <p>
+        Physics PhD candidate specializing in computational modeling of complex biological systems.
+        Expert in building coarse-grained simulation frameworks, molecular dynamics pipelines, and
+        kinetic Monte Carlo methods. Strong track record reducing simulation cost by orders of magnitude
+        while preserving structural fidelity.
+      </p>
+    </section>
+
+    <section class="resume-section">
+      <h2>Education</h2>
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="resume-item-title">PhD, Physics</span>
+          <span class="resume-item-date">Expected 2026</span>
+        </div>
+        <span class="resume-item-sub">University · Specialization: Computational Biophysics, HPC, ML</span>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Research &amp; Experience</h2>
+
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="resume-item-title">Doctoral Researcher — Hepatitis B Virus Assembly Modeling</span>
+          <span class="resume-item-date">2020 – Present</span>
+        </div>
+        <ul>
+          <li>Developed ML-optimized coarse-grained elastic network model (5,000 atoms → 300 beads) using OpenMM and NAMD; reduced simulation cost by <strong>94%</strong> and achieved <strong>~17× speedup</strong>.</li>
+          <li>Parallelized simulations on HPC clusters for an additional <strong>~20× acceleration</strong>; enabled <strong>~50× better sampling</strong> of rare oligomer formation events via weighted ensemble methods (WESTPA).</li>
+          <li>Extended a C++ kinetic Monte Carlo framework to model drug-binding effects on viral capsid assembly dynamics.</li>
+          <li>Constructed Markov State Models to extract interpretable assembly pathways from high-dimensional trajectory data.</li>
+          <li>Produced computational results that directly complemented and guided wet-lab in vitro experiments.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Technical Skills</h2>
+      <div class="resume-skills-grid">
+        <div class="skill-group">
+          <span class="skill-group-label">Simulation</span>
+          <span class="skill-tags">OpenMM · NAMD · WESTPA · GROMACS · VMD</span>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">Languages</span>
+          <span class="skill-tags">Python · C++ · Bash · SLURM</span>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">Modeling</span>
+          <span class="skill-tags">Elastic Network Models · Markov State Models · Kinetic Monte Carlo · Coarse-Graining</span>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">HPC</span>
+          <span class="skill-tags">MPI Parallelization · GPU computing · Cluster job scheduling</span>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">ML / Data</span>
+          <span class="skill-tags">PyTorch · scikit-learn · NumPy · pandas · Matplotlib</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Key Projects</h2>
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="resume-item-title">TorchSim — GPU-Accelerated Molecular Simulation</span>
+        </div>
+        <p>Contributor to open-source PyTorch-based simulation framework for scalable, differentiable molecular dynamics.</p>
+      </div>
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="resume-item-title">Binding Affinity ML</span>
+        </div>
+        <p>Predicted protein-ligand binding affinities from structural features using gradient-boosted ensemble models.</p>
+      </div>
+    </section>
+
+  </div><!-- /resume-comp-sci -->
+
+  <!-- ML Engineer Resume -->
+  <div class="resume-view hidden" id="resume-ml">
+    <div class="resume-header">
+      <h1>Smriti Pradhan</h1>
+      <div class="resume-contact">
+        <span><i class="fa fa-envelope"></i> smritipradhan98@gmail.com</span>
+        <span><i class="fa fa-globe"></i> pradhansmriti.github.io</span>
+        <span><i class="fa fa-github"></i> pradhansmriti</span>
+      </div>
+      <p class="resume-tagline">ML Engineer · Scalable Systems · Scientific Machine Learning</p>
+    </div>
+
+    <section class="resume-section">
+      <h2>Summary</h2>
+      <p>
+        ML practitioner with a physics PhD background, specializing in building scalable machine learning
+        systems that simplify complex simulations and high-dimensional scientific data. Proven ability to
+        design end-to-end ML pipelines, optimize model performance, and deploy on HPC infrastructure.
+        Seeking ML engineering or applied research roles in technical, high-ownership environments.
+      </p>
+    </section>
+
+    <section class="resume-section">
+      <h2>Education</h2>
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="resume-item-title">PhD, Physics</span>
+          <span class="resume-item-date">Expected 2026</span>
+        </div>
+        <span class="resume-item-sub">University · Focus: Machine Learning, Probabilistic Modeling, High-Performance Computing</span>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Experience</h2>
+
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="resume-item-title">ML Research Engineer — Biophysical Simulation Systems</span>
+          <span class="resume-item-date">2020 – Present</span>
+        </div>
+        <ul>
+          <li>Designed and trained ML models to learn coarse-grained force-field parameters from all-atom simulation data, reducing system size by <strong>94%</strong> (5,000 → 300 parameters) and accelerating throughput <strong>17×</strong>.</li>
+          <li>Built end-to-end computational pipelines (data generation → model training → simulation deployment) on HPC clusters with SLURM; achieved <strong>~50× improvement</strong> in rare-event sampling efficiency.</li>
+          <li>Applied probabilistic modeling (Markov State Models) to extract interpretable low-dimensional structure from multi-terabyte trajectory datasets.</li>
+          <li>Extended a C++ simulation engine with Python bindings for drug-perturbation experiments; results directly informed experimental collaborators.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Technical Skills</h2>
+      <div class="resume-skills-grid">
+        <div class="skill-group">
+          <span class="skill-group-label">ML / DL</span>
+          <span class="skill-tags">PyTorch · scikit-learn · GNNs · Gradient Boosting · Markov Models</span>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">Languages</span>
+          <span class="skill-tags">Python · C++ · Bash · SQL</span>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">Infrastructure</span>
+          <span class="skill-tags">SLURM · GPU clusters · MPI · Docker (basic)</span>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">Data</span>
+          <span class="skill-tags">NumPy · pandas · MDAnalysis · h5py · Matplotlib</span>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">Modeling</span>
+          <span class="skill-tags">Probabilistic modeling · Stochastic processes · Optimization · Feature engineering</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Key Projects</h2>
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="resume-item-title">TorchSim — Differentiable ML Simulation Framework</span>
+        </div>
+        <p>Contributor to open-source PyTorch library enabling GPU-accelerated, differentiable molecular simulations with clean ML integration.</p>
+      </div>
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="resume-item-title">Binding Affinity Prediction</span>
+        </div>
+        <p>End-to-end ML pipeline (feature engineering → model selection → evaluation) predicting protein-ligand binding affinities; compared gradient boosting, random forests, and neural approaches.</p>
+      </div>
+      <div class="resume-item">
+        <div class="resume-item-header">
+          <span class="resume-item-title">Agentic VMD</span>
+        </div>
+        <p>LLM-powered agent that controls VMD molecular visualization software via natural language, integrating Claude API tool-use with a scientific desktop application.</p>
+      </div>
+    </section>
+
+  </div><!-- /resume-ml -->
+
+</div><!-- /resume-page -->
+
+<script>
+function switchResume(target) {
+  document.querySelectorAll('.resume-view').forEach(function(v) {
+    v.classList.add('hidden');
+  });
+  document.querySelectorAll('.toggle-btn').forEach(function(b) {
+    b.classList.remove('active');
+  });
+  document.getElementById('resume-' + target).classList.remove('hidden');
+  document.querySelector('[data-target="' + target + '"]').classList.add('active');
+
+  var pdfMap = {
+    'comp-sci': '/resume/resume_compsci.pdf',
+    'ml': '/resume/resume_ml.pdf'
+  };
+  document.getElementById('resumeDownload').href = pdfMap[target];
+}
+</script>
+
+</main>
+{{ partial "footer.html" . }}

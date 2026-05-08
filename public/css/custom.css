@@ -155,3 +155,220 @@ body {
   margin-top: 2rem;
 }
 
+/* ── Resume toggle page ── */
+.resume-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 3rem;
+}
+
+.resume-toggle-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.resume-toggle-label {
+  color: #ffc7ec;
+  font-size: 0.85em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.resume-toggle-switch {
+  display: flex;
+  border: 1px solid #ffc7ec;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.toggle-btn {
+  background: transparent;
+  color: #ffc7ec;
+  border: none;
+  padding: 6px 18px;
+  font-size: 0.8em;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  font-family: inherit;
+}
+
+.toggle-btn:not(:last-child) {
+  border-right: 1px solid #ffc7ec;
+}
+
+.toggle-btn.active {
+  background: #ffc7ec;
+  color: #1a1a2e;
+  font-weight: 600;
+}
+
+.toggle-btn:hover:not(.active) {
+  background: rgba(255, 199, 236, 0.15);
+}
+
+.resume-download-btn {
+  margin-left: auto;
+  color: #ffc7ec;
+  border: 1px solid #ffc7ec;
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.resume-download-btn:hover {
+  background: rgba(255, 199, 236, 0.15);
+}
+
+.resume-view.hidden {
+  display: none;
+}
+
+.resume-header {
+  border-bottom: 1px solid rgba(255, 199, 236, 0.3);
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.resume-header h1 {
+  color: #ffc7ec;
+  margin: 0 0 0.4rem;
+  font-size: 1.6em;
+}
+
+.resume-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.78em;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.resume-contact i {
+  color: #ffc7ec;
+  margin-right: 4px;
+}
+
+.resume-tagline {
+  font-size: 0.82em;
+  color: #ffc7ec;
+  opacity: 0.8;
+  margin: 0.25rem 0 0;
+  font-style: italic;
+}
+
+.resume-section {
+  margin-bottom: 1.75rem;
+}
+
+.resume-section h2 {
+  color: #ffc7ec;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid rgba(255, 199, 236, 0.25);
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.resume-item {
+  margin-bottom: 1rem;
+}
+
+.resume-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.resume-item-title {
+  color: #f2edef;
+  font-weight: 600;
+  font-size: 0.85em;
+}
+
+.resume-item-date {
+  color: #aaa;
+  font-size: 0.75em;
+  white-space: nowrap;
+}
+
+.resume-item-sub {
+  color: #aaa;
+  font-size: 0.78em;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.resume-item ul {
+  margin: 0.4rem 0 0 1.2rem;
+  padding: 0;
+}
+
+.resume-item li {
+  font-size: 0.8em;
+  color: #ddd;
+  margin-bottom: 0.3rem;
+  line-height: 1.5;
+}
+
+.resume-item p {
+  font-size: 0.8em;
+  color: #ddd;
+  margin: 0.3rem 0 0;
+  line-height: 1.5;
+}
+
+.resume-skills-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skill-group {
+  display: flex;
+  gap: 0.75rem;
+  align-items: baseline;
+  font-size: 0.8em;
+}
+
+.skill-group-label {
+  color: #ffc7ec;
+  font-weight: 600;
+  min-width: 110px;
+  flex-shrink: 0;
+}
+
+.skill-tags {
+  color: #ddd;
+}
+
+@media (max-width: 600px) {
+  .resume-toggle-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .resume-download-btn {
+    margin-left: 0;
+  }
+  .resume-item-header {
+    flex-direction: column;
+  }
+  .skill-group {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .skill-group-label {
+    min-width: unset;
+  }
+}
+

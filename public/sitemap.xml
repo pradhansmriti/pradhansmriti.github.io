@@ -68,6 +68,8 @@
   </url><url>
     <loc>http://localhost:1313/tags/rdkit/</loc>
   </url><url>
+    <loc>http://localhost:1313/resume/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/structural-biology/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/vmd/</loc>

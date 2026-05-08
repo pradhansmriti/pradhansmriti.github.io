@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Molecular Visualization on Smriti Pradhan</title><link>https://pradhansmriti.github.io/tags/molecular-visualization/</link><description>Recent content in Molecular Visualization on Smriti Pradhan</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pradhansmriti.github.io/tags/molecular-visualization/index.xml" rel="self" type="application/rss+xml"/><item><title>AgenticVMD</title><link>https://pradhansmriti.github.io/projects/agentic-vmd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pradhansmriti.github.io/projects/agentic-vmd/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Add a detailed overview of this project here.&lt;/p&gt;
-&lt;h2 id="methods"&gt;Methods&lt;/h2&gt;
-&lt;p&gt;Describe the approach — how the LLM interprets natural language queries and generates VMD Tcl scripts.&lt;/p&gt;
-&lt;h2 id="results"&gt;Results&lt;/h2&gt;
-&lt;p&gt;Add figures, screenshots, or demo videos here.&lt;/p&gt;
-&lt;!-- Example image:
-![VMD visualization](/images/your-screenshot.png)
---&gt;
-&lt;!-- Example video:
-&lt;video controls width="100%"&gt;
- &lt;source src="https://pradhansmriti.github.io/videos/agenticvmd-demo.mp4" type="video/mp4"&gt;
-&lt;/video&gt;
---&gt;
-&lt;h2 id="code"&gt;Code&lt;/h2&gt;
-&lt;p&gt;The code for this project is available on &lt;a href="https://github.com/pradhansmriti/agentic_vmd"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Molecular Visualization on Smriti Pradhan</title>
+    <link>http://localhost:1313/tags/molecular-visualization/</link>
+    <description>Recent content in Molecular Visualization on Smriti Pradhan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/molecular-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AgenticVMD</title>
+      <link>http://localhost:1313/projects/agentic-vmd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/agentic-vmd/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A natural language interface for &lt;a href=&#34;https://www.ks.uiuc.edu/Research/vmd/&#34;&gt;VMD (Visual Molecular Dynamics)&lt;/a&gt;. Upload a PDB file or RCSB PDB ID, describe a visualization in plain English, and get a rendered image.&lt;/p&gt;&#xA;&lt;p&gt;VMD is a powerful tool for visualizing and analyzing molecular structures, but generating the Tcl scripts it requires can be a steep barrier as it is not a common scripting language even among computational scientists. AgenticVMD removes that barrier by letting users describe what they want to see and handling the translation automatically and you can also edit the TCL script and use it yourself.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

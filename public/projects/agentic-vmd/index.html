@@ -29,6 +29,8 @@
       
       <li><a href="/projects/">Projects</a></li>
       
+      <li><a href="/resume/">Resume</a></li>
+      
     </ul>
     <hr/>
     </nav>
@@ -38,7 +40,7 @@
     <div class="project-detail-header">
       
       <div class="project-detail-hero">
-        <img src="/images/fights_virus.png" alt="AgenticVMD">
+        <img src="/images/vmdagent2.png" alt="AgenticVMD">
       </div>
       
       <h1>AgenticVMD</h1>
@@ -60,28 +62,17 @@
     <hr>
     <div class="project-detail-body">
       <h2 id="overview">Overview</h2>
-<p>A natural language interface for <a href="https://www.ks.uiuc.edu/Research/vmd/">VMD (Visual Molecular Dynamics)</a>. Upload a PDB file, describe a visualization in plain English, and get a rendered image — no Tcl scripting required.</p>
-<p>VMD is a powerful tool for visualizing and analyzing molecular structures, but generating the Tcl scripts it requires can be a steep barrier for researchers without scripting experience. AgenticVMD removes that barrier by letting users describe what they want to see and handling the translation automatically.</p>
-<h2 id="methods">Methods</h2>
-<ol>
-<li>User uploads a PDB file and enters a natural language prompt via a Streamlit frontend</li>
-<li>The prompt is sent to a FastAPI backend, which forwards it to Claude (Anthropic) to generate a VMD Tcl script</li>
-<li>VMD runs headlessly and renders the scene using TachyonInternal ray tracing</li>
-<li>A PNG image is returned and displayed in the UI</li>
-</ol>
-<p>The Streamlit frontend also exposes the generated Tcl script in an editable text area, so users can inspect, tweak, and re-render without re-prompting. A separate <code>/vmd/run-tcl</code> endpoint allows raw Tcl scripts to be submitted directly for advanced users.</p>
+<p>A natural language interface for <a href="https://www.ks.uiuc.edu/Research/vmd/">VMD (Visual Molecular Dynamics)</a>. Upload a PDB file or RCSB PDB ID, describe a visualization in plain English, and get a rendered image.</p>
+<p>VMD is a powerful tool for visualizing and analyzing molecular structures, but generating the Tcl scripts it requires can be a steep barrier as it is not a common scripting language even among computational scientists. AgenticVMD removes that barrier by letting users describe what they want to see and handling the translation automatically and you can also edit the TCL script and use it yourself.</p>
 <h3 id="example">Example</h3>
-<p><strong>Prompt:</strong> <code>Color chain A red in ribbon representation, hide everything else</code></p>
-<p><strong>Generated Tcl:</strong></p>
-<pre><code class="language-tcl">delrep 0 top
-color Display Background white
-axes location Off
-display depthcue off
-mol addrep top
-mol modstyle 0 top NewRibbons
-mol modcolor 0 top ColorID 1
-mol modselect 0 top &quot;chain A&quot;
-</code></pre>
+<figure style="text-align:center;">
+	  <img src="/images/newoutput.gif" style="width:800px; height:auto; display:block; margin:0 auto;">
+	    <figcaption style="margin-top:8px; font-style:italic;">
+		        Demo for visualizing agent
+			  </figcaption>
+</figure>
+
+
 <h2 id="results">Results</h2>
 <p>AgenticVMD successfully converts plain-English descriptions into valid VMD Tcl scripts for a range of visualization tasks, including per-chain coloring, secondary structure representations (ribbons, cartoons, surface), atom selection, and background styling. The rendered PNG images are returned in seconds, making it practical for iterative exploration of molecular structures.</p>
 <p>The editable Tcl panel gives researchers a path from natural language to precise scripting — they can start with a prompt and refine the generated script directly, bridging the gap between novice and expert use of VMD.</p>

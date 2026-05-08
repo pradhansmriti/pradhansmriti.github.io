@@ -1,7 +1,7 @@
 ---
 title: "Kinetic Monte Carlo Simulations for HBV"
 description: "Coarse-grained kinetic Monte Carlo simulations to understand the effect of different drugs on Hepatitis B Virus capsid assembly."
-image: "/images/fights_virus.png"
+image: "/images/lowsalt.png"
 github: "https://github.com/pradhansmriti/hbv_dimerdrug"
 layout: "project-detail"
 tags: ["Monte Carlo", "Python", "Biophysics", "HBV"]
@@ -24,11 +24,9 @@ Add figures, plots, and key findings here.
 ![Assembly pathway](/images/your-figure.png)
 -->
 
-<!-- Example video:
-<video controls width="100%">
-  <source src="/videos/your-simulation.mp4" type="video/mp4">
+<video controls width="80%">
+  <source src="/images/T4-short.mp4" type="video/mp4">
 </video>
--->
 
 ## Code
 
