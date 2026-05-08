@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drug Discovery on Smriti Pradhan</title>
+    <link>http://localhost:1313/tags/drug-discovery/</link>
+    <description>Recent content in Drug Discovery on Smriti Pradhan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/drug-discovery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binding Affinity ML</title>
+      <link>http://localhost:1313/projects/binding-affinity-ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/binding-affinity-ml/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;One of the most important — and expensive — questions in drug discovery is: &lt;em&gt;does this molecule actually stick to its target?&lt;/em&gt; When a drug works, a small molecule fits snugly into a protein and disrupts or activates it. The strength of that fit is called &lt;strong&gt;binding affinity&lt;/strong&gt;, measured as pKd — the higher the number, the tighter the grip.&lt;/p&gt;&#xA;&lt;p&gt;Running experiments to measure binding affinity for thousands of drug candidates is slow and costly. This project explores how well a machine learning model can predict it directly from the 3D structure of a protein–ligand complex.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

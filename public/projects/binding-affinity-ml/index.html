@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Binding Affinity ML | Smriti Pradhan</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+</head>
+<div class="site-header-figure">
+  <img src="/images/fights_virus.png" alt="Header Image">
+</div>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/post/">Posts</a></li>
+      
+      <li><a href="/projects/">Projects</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<main>
+  <div class="project-detail">
+    <div class="project-detail-header">
+      
+      <div class="project-detail-hero">
+        <img src="/images/fights_virus.png" alt="Binding Affinity ML">
+      </div>
+      
+      <h1>Binding Affinity ML</h1>
+      <p class="project-detail-desc">An ML pipeline that predicts protein–ligand binding affinity from 3D crystal structures, beating the published RF-Score benchmark with a strict sequence-identity split.</p>
+      
+      <div class="project-tags">
+        <span class="tag">Machine Learning</span><span class="tag">Drug Discovery</span><span class="tag">Python</span><span class="tag">Biophysics</span><span class="tag">RDKit</span><span class="tag">XGBoost</span>
+      </div>
+      
+      <div class="project-detail-links">
+        
+        <a href="https://github.com/smritipradhan/binding_affinity_ml" target="_blank" rel="noopener" class="project-link">
+          <i class="fab fa-github"></i> Code
+        </a>
+        
+        
+      </div>
+    </div>
+    <hr>
+    <div class="project-detail-body">
+      <h2 id="overview">Overview</h2>
+<p>One of the most important — and expensive — questions in drug discovery is: <em>does this molecule actually stick to its target?</em> When a drug works, a small molecule fits snugly into a protein and disrupts or activates it. The strength of that fit is called <strong>binding affinity</strong>, measured as pKd — the higher the number, the tighter the grip.</p>
+<p>Running experiments to measure binding affinity for thousands of drug candidates is slow and costly. This project explores how well a machine learning model can predict it directly from the 3D structure of a protein–ligand complex.</p>
+<h2 id="methods">Methods</h2>
+<h3 id="data">Data</h3>
+<p>The pipeline uses the <strong>PDBbind Refined Set v2020</strong> — a curated database of 4,641 protein–ligand crystal structures, each paired with an experimentally measured pKd value. It&rsquo;s the standard benchmark for evaluating binding affinity prediction methods.</p>
+<h3 id="feature-engineering">Feature Engineering</h3>
+<p><strong>Ligand features</strong> were computed with RDKit: molecular weight, lipophilicity (logP), polar surface area, rotatable bonds, and hydrogen bond counts. The most impactful addition was <strong>Morgan fingerprints</strong> (ECFP4, 2,048-bit) — a structural barcode encoding the circular chemical neighbourhood around each atom.</p>
+<p><strong>Protein–ligand interface features</strong> were extracted with MDAnalysis: atom contact counts, hydrogen bonds, hydrophobic interactions, pocket size, and contact geometry.</p>
+<p>Combined: <strong>2,063 features per complex</strong>.</p>
+<h3 id="sequence-identity-split">Sequence-Identity Split</h3>
+<p>To avoid sequence leakage — where a kinase in training and a closely related kinase in test inflates apparent performance — proteins were clustered at 30% sequence identity using <strong>mmseqs2</strong> (CD-HIT 4.8.1 from conda was silently broken on macOS). This produced 980 clusters across 7,881 protein chains, with a final split of 3,366 / 578 / 697 (train / val / test).</p>
+<h3 id="models">Models</h3>
+<p>Four models were trained: Linear Regression, Random Forest, XGBoost, and LightGBM. A shallow MLP (two hidden layers, PyTorch) was added as a neural network baseline. A 3-layer Graph Isomorphism Network (GIN) was also evaluated, operating on SMILES-derived molecular graphs with 35-dimensional atom node features and 8 interaction features appended at the graph level.</p>
+<h2 id="results">Results</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Model</th>
+          <th>RMSE</th>
+          <th>R²</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Random Forest</td>
+          <td>1.265</td>
+          <td>0.570</td>
+      </tr>
+      <tr>
+          <td>XGBoost (tuned)</td>
+          <td>1.285</td>
+          <td>0.556</td>
+      </tr>
+      <tr>
+          <td>GIN (3-layer)</td>
+          <td>1.428</td>
+          <td>0.452</td>
+      </tr>
+      <tr>
+          <td>Shallow MLP</td>
+          <td>1.610</td>
+          <td>0.304</td>
+      </tr>
+      <tr>
+          <td><em>Published RF-Score benchmark</em></td>
+          <td><em>~1.48</em></td>
+          <td><em>~0.52</em></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Morgan fingerprints were the single biggest improvement</strong> — adding 2,048 structural bits pushed test R² from ~0.39 to 0.57 and RMSE from ~1.51 to 1.265. Tree models outperformed the neural network, which is expected at this dataset size (~3,000 training examples).</p>
+<p><strong>SHAP analysis</strong> confirmed the model learned real chemistry: the top features by importance were hydrophobic contact count, molecular weight, total atom contacts, lipophilicity, and pocket size — all quantities medicinal chemists care about.</p>
+<p>The GIN matched the published benchmark but trailed Random Forest, consistent with the known pattern that GNNs need ~50k+ samples to outperform gradient-boosted trees on small tabular datasets.</p>
+<h2 id="whats-next">What&rsquo;s Next</h2>
+<p>The main limitation is that the pipeline works from <strong>static crystal structures</strong>. Proteins flex dynamically, and binding strength often depends on how much a protein must deform to accommodate a ligand. The natural extension is to incorporate <strong>molecular dynamics (MD) simulations</strong>: run short trajectories (10–50 ns), sample hundreds of frames, and extract time-averaged features like H-bond occupancy, average pocket volume, and ligand positional fluctuations. MM-GBSA end-point free energy estimates from trajectories are another candidate feature — noisy on their own, but potentially correctable by the ML model using structural context.</p>
+<h2 id="code">Code</h2>
+<p>The code for this project is available on <a href="https://github.com/smritipradhan/binding_affinity_ml">GitHub</a>.</p>
+
+    </div>
+    <div class="project-back">
+      <a href="/research/" class="project-link">← Back to Projects</a>
+    </div>
+  </div>
+</main>
+
+  <footer>
+  
+<footer>
+	  <p>
+	      <a href="https://linkedin.com/in/pradhan-smriti" target="_blank" rel="noopener">
+		            <i class="fab fa-linkedin fa-2x"></i>
+			        </a>
+				    <a href="https://github.com/pradhansmriti" target="_blank" rel="noopener" style="margin-left: 15px;">
+					          <i class="fab fa-github fa-2x"></i>
+						      </a>
+						        </p>
+</footer>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+											          onload="renderMathInElement(document.body, {
+												          delimiters: [
+												            {left: '$$', right: '$$', display: true},
+												            {left: '$', right: '$', display: false}
+												          ],
+												          throwOnError: false
+												      });">
+</script>
+
+
+  
+  </footer>
+  </body>
+</html>
+

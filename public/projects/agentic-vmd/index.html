@@ -1,2 +1,130 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>AgenticVMD | Smriti Pradhan</title><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/fonts.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css><link rel=stylesheet href=/css/custom.css></head><div class=site-header-figure><img src=/images/fights_virus.png alt="Header Image"></div><body><nav><ul class=menu><li><a href=/>Home</a></li><li><a href=/about/>About</a></li><li><a href=/post/>Posts</a></li><li><a href=/projects/>Projects</a></li></ul><hr></nav><main><div class=project-detail><div class=project-detail-header><div class=project-detail-hero><img src=/images/fights_virus.png alt=AgenticVMD></div><h1>AgenticVMD</h1><p class=project-detail-desc>An LLM-powered chatbot that converts plain English into VMD Tcl scripts to visualize and interact with molecular structures.</p><div class=project-tags><span class=tag>LLM</span><span class=tag>Python</span><span class=tag>VMD</span><span class=tag>Molecular Visualization</span></div><div class=project-detail-links><a href=https://github.com/pradhansmriti/agentic_vmd target=_blank rel=noopener class=project-link><i class="fab fa-github"></i> Code</a></div></div><hr><div class=project-detail-body><h2 id=overview>Overview</h2><p>Add a detailed overview of this project here.</p><h2 id=methods>Methods</h2><p>Describe the approach — how the LLM interprets natural language queries and generates VMD Tcl scripts.</p><h2 id=results>Results</h2><p>Add figures, screenshots, or demo videos here.</p><h2 id=code>Code</h2><p>The code for this project is available on <a href=https://github.com/pradhansmriti/agentic_vmd>GitHub</a>.</p></div><div class=project-back><a href=/research/ class=project-link>← Back to Projects</a></div></div></main><footer><footer><p><a href=https://linkedin.com/in/pradhan-smriti target=_blank rel=noopener><i class="fab fa-linkedin fa-2x"></i>
-</a><a href=https://github.com/pradhansmriti target=_blank rel=noopener style=margin-left:15px><i class="fab fa-github fa-2x"></i></a></p></footer><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js crossorigin=anonymous onload='renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],throwOnError:!1})'></script></footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AgenticVMD | Smriti Pradhan</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+</head>
+<div class="site-header-figure">
+  <img src="/images/fights_virus.png" alt="Header Image">
+</div>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/post/">Posts</a></li>
+      
+      <li><a href="/projects/">Projects</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<main>
+  <div class="project-detail">
+    <div class="project-detail-header">
+      
+      <div class="project-detail-hero">
+        <img src="/images/fights_virus.png" alt="AgenticVMD">
+      </div>
+      
+      <h1>AgenticVMD</h1>
+      <p class="project-detail-desc">An LLM-powered chatbot that converts plain English into VMD Tcl scripts to visualize and interact with molecular structures.</p>
+      
+      <div class="project-tags">
+        <span class="tag">LLM</span><span class="tag">Python</span><span class="tag">VMD</span><span class="tag">Molecular Visualization</span>
+      </div>
+      
+      <div class="project-detail-links">
+        
+        <a href="https://github.com/pradhansmriti/agentic_vmd" target="_blank" rel="noopener" class="project-link">
+          <i class="fab fa-github"></i> Code
+        </a>
+        
+        
+      </div>
+    </div>
+    <hr>
+    <div class="project-detail-body">
+      <h2 id="overview">Overview</h2>
+<p>A natural language interface for <a href="https://www.ks.uiuc.edu/Research/vmd/">VMD (Visual Molecular Dynamics)</a>. Upload a PDB file, describe a visualization in plain English, and get a rendered image — no Tcl scripting required.</p>
+<p>VMD is a powerful tool for visualizing and analyzing molecular structures, but generating the Tcl scripts it requires can be a steep barrier for researchers without scripting experience. AgenticVMD removes that barrier by letting users describe what they want to see and handling the translation automatically.</p>
+<h2 id="methods">Methods</h2>
+<ol>
+<li>User uploads a PDB file and enters a natural language prompt via a Streamlit frontend</li>
+<li>The prompt is sent to a FastAPI backend, which forwards it to Claude (Anthropic) to generate a VMD Tcl script</li>
+<li>VMD runs headlessly and renders the scene using TachyonInternal ray tracing</li>
+<li>A PNG image is returned and displayed in the UI</li>
+</ol>
+<p>The Streamlit frontend also exposes the generated Tcl script in an editable text area, so users can inspect, tweak, and re-render without re-prompting. A separate <code>/vmd/run-tcl</code> endpoint allows raw Tcl scripts to be submitted directly for advanced users.</p>
+<h3 id="example">Example</h3>
+<p><strong>Prompt:</strong> <code>Color chain A red in ribbon representation, hide everything else</code></p>
+<p><strong>Generated Tcl:</strong></p>
+<pre><code class="language-tcl">delrep 0 top
+color Display Background white
+axes location Off
+display depthcue off
+mol addrep top
+mol modstyle 0 top NewRibbons
+mol modcolor 0 top ColorID 1
+mol modselect 0 top &quot;chain A&quot;
+</code></pre>
+<h2 id="results">Results</h2>
+<p>AgenticVMD successfully converts plain-English descriptions into valid VMD Tcl scripts for a range of visualization tasks, including per-chain coloring, secondary structure representations (ribbons, cartoons, surface), atom selection, and background styling. The rendered PNG images are returned in seconds, making it practical for iterative exploration of molecular structures.</p>
+<p>The editable Tcl panel gives researchers a path from natural language to precise scripting — they can start with a prompt and refine the generated script directly, bridging the gap between novice and expert use of VMD.</p>
+<h2 id="code">Code</h2>
+<p>The code for this project is available on <a href="https://github.com/pradhansmriti/agentic_vmd">GitHub</a>.</p>
+
+    </div>
+    <div class="project-back">
+      <a href="/research/" class="project-link">← Back to Projects</a>
+    </div>
+  </div>
+</main>
+
+  <footer>
+  
+<footer>
+	  <p>
+	      <a href="https://linkedin.com/in/pradhan-smriti" target="_blank" rel="noopener">
+		            <i class="fab fa-linkedin fa-2x"></i>
+			        </a>
+				    <a href="https://github.com/pradhansmriti" target="_blank" rel="noopener" style="margin-left: 15px;">
+					          <i class="fab fa-github fa-2x"></i>
+						      </a>
+						        </p>
+</footer>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+											          onload="renderMathInElement(document.body, {
+												          delimiters: [
+												            {left: '$$', right: '$$', display: true},
+												            {left: '$', right: '$', display: false}
+												          ],
+												          throwOnError: false
+												      });">
+</script>
+
+
+  
+  </footer>
+  </body>
+</html>
+
