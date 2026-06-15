@@ -18,7 +18,7 @@ Describe your elastic network model setup, parameters, and approach.
 
 ## Results
 <video controls width="80%">
-  <source src="/images/119mer.mp4" type="video/mp4">
+  <source src="/images/capsid_ENM.mp4" type="video/mp4">
 </video>
 
 

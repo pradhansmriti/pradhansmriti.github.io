@@ -1,7 +1,7 @@
 ---
 title: "Binding Affinity ML"
 description: "An ML pipeline that predicts protein–ligand binding affinity from 3D crystal structures, beating the published RF-Score benchmark with a strict sequence-identity split."
-image: "/images/fights_virus.png"
+image: "/images/binding_model_comparison.png"
 github: "https://github.com/smritipradhan/binding_affinity_ml"
 tags: ["Machine Learning", "Drug Discovery", "Python", "Biophysics", "RDKit", "XGBoost"]
 layout: "project-detail"
@@ -46,9 +46,19 @@ Four models were trained: Linear Regression, Random Forest, XGBoost, and LightGB
 | Shallow MLP | 1.610 | 0.304 |
 | *Published RF-Score benchmark* | *~1.48* | *~0.52* |
 
+![Model comparison on the validation set: RMSE, R², and Pearson r across Linear Regression, Random Forest, XGBoost, and LightGBM](/images/binding_model_comparison.png)
+
+Tree-based models clustered tightly together and far ahead of the linear baseline. Random Forest came out narrowly on top, and its predictions track the experimental pKd values closely across the full affinity range:
+
+![Random Forest predicted vs. actual pKd and the residual distribution, centred near zero](/images/binding_residuals.png)
+
 **Morgan fingerprints were the single biggest improvement** — adding 2,048 structural bits pushed test R² from ~0.39 to 0.57 and RMSE from ~1.51 to 1.265. Tree models outperformed the neural network, which is expected at this dataset size (~3,000 training examples).
 
 **SHAP analysis** confirmed the model learned real chemistry: the top features by importance were hydrophobic contact count, molecular weight, total atom contacts, lipophilicity, and pocket size — all quantities medicinal chemists care about.
+
+![SHAP beeswarm plot for the tuned XGBoost model, with hydrophobic_count, mol_weight, and atom_contacts as the most influential features](/images/binding_shap_beeswarm.png)
+
+The beeswarm view also shows the *direction* of each effect: more hydrophobic contacts and larger pocket sizes push predicted affinity up, consistent with how real binding works. Individual Morgan fingerprint bits (e.g. `fp_1771`, `fp_1476`) each contribute a little, but collectively the 2,048-bit structural barcode is what closed most of the gap to the benchmark.
 
 The GIN matched the published benchmark but trailed Random Forest, consistent with the known pattern that GNNs need ~50k+ samples to outperform gradient-boosted trees on small tabular datasets.
 

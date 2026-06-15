@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Projects on Smriti Pradhan</title>
-    <link>http://localhost:1313/projects/</link>
-    <description>Recent content in Projects on Smriti Pradhan</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Kinetic Monte Carlo Simulations for HBV</title>
-      <link>http://localhost:1313/projects/hbv-monte-carlo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/hbv-monte-carlo/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Add a detailed overview of this project here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;&#xA;&lt;p&gt;Describe your simulation methods, parameters, and approach.&lt;/p&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;&#xA;&lt;p&gt;Add figures, plots, and key findings here.&lt;/p&gt;&#xA;&lt;!-- Example image:&#xA;![Assembly pathway](/images/your-figure.png)&#xA;--&gt;&#xA;&lt;video controls width=&#34;80%&#34;&gt;&#xA;  &lt;source src=&#34;http://localhost:1313/images/T4-short.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xA;&lt;/video&gt;&#xA;&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;&#xA;&lt;p&gt;The code for this project is available on &lt;a href=&#34;https://github.com/pradhansmriti/hbv_dimerdrug&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Elastic Network Model for HBV Assembly</title>
-      <link>http://localhost:1313/projects/hbv-elastic-network/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/hbv-elastic-network/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Add a detailed overview of this project here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;&#xA;&lt;p&gt;Describe your elastic network model setup, parameters, and approach.&lt;/p&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;&#xA;&lt;video controls width=&#34;80%&#34;&gt;&#xA;  &lt;source src=&#34;http://localhost:1313/images/119mer.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xA;&lt;/video&gt;&#xA;&lt;p&gt;Add figures, plots, and key findings here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;&#xA;&lt;p&gt;The code for this project is available on &lt;a href=&#34;https://github.com/pradhansmriti/HBV_enm&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AgenticVMD</title>
-      <link>http://localhost:1313/projects/agentic-vmd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/agentic-vmd/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A natural language interface for &lt;a href=&#34;https://www.ks.uiuc.edu/Research/vmd/&#34;&gt;VMD (Visual Molecular Dynamics)&lt;/a&gt;. Upload a PDB file or RCSB PDB ID, describe a visualization in plain English, and get a rendered image.&lt;/p&gt;&#xA;&lt;p&gt;VMD is a powerful tool for visualizing and analyzing molecular structures, but generating the Tcl scripts it requires can be a steep barrier as it is not a common scripting language even among computational scientists. AgenticVMD removes that barrier by letting users describe what they want to see and handling the translation automatically and you can also edit the TCL script and use it yourself.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Binding Affinity ML</title>
-      <link>http://localhost:1313/projects/binding-affinity-ml/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/binding-affinity-ml/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;One of the most important — and expensive — questions in drug discovery is: &lt;em&gt;does this molecule actually stick to its target?&lt;/em&gt; When a drug works, a small molecule fits snugly into a protein and disrupts or activates it. The strength of that fit is called &lt;strong&gt;binding affinity&lt;/strong&gt;, measured as pKd — the higher the number, the tighter the grip.&lt;/p&gt;&#xA;&lt;p&gt;Running experiments to measure binding affinity for thousands of drug candidates is slow and costly. This project explores how well a machine learning model can predict it directly from the 3D structure of a protein–ligand complex.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Projects on Smriti Pradhan</title>
+		<link>https://pradhansmriti.github.io/projects/</link>
+		<description>Recent content in Projects on Smriti Pradhan</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://pradhansmriti.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Kinetic Monte Carlo Simulations for HBV</title>
+				<link>https://pradhansmriti.github.io/projects/hbv-monte-carlo/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://pradhansmriti.github.io/projects/hbv-monte-carlo/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Add a detailed overview of this project here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;&#xA;&lt;p&gt;Describe your simulation methods, parameters, and approach.&lt;/p&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;&#xA;&lt;p&gt;Add figures, plots, and key findings here.&lt;/p&gt;&#xA;&lt;!-- Example image:&#xA;![Assembly pathway](/images/your-figure.png)&#xA;--&gt;&#xA;&lt;video controls width=&#34;80%&#34;&gt;&#xA;  &lt;source src=&#34;https://pradhansmriti.github.io/images/T4-short.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xA;&lt;/video&gt;&#xA;&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;&#xA;&lt;p&gt;The code for this project is available on &lt;a href=&#34;https://github.com/pradhansmriti/hbv_dimerdrug&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Elastic Network Model for HBV Assembly</title>
+				<link>https://pradhansmriti.github.io/projects/hbv-elastic-network/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://pradhansmriti.github.io/projects/hbv-elastic-network/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Add a detailed overview of this project here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;&#xA;&lt;p&gt;Describe your elastic network model setup, parameters, and approach.&lt;/p&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;&#xA;&lt;video controls width=&#34;80%&#34;&gt;&#xA;  &lt;source src=&#34;https://pradhansmriti.github.io/images/capsid_ENM.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xA;&lt;/video&gt;&#xA;&lt;p&gt;Add figures, plots, and key findings here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;&#xA;&lt;p&gt;The code for this project is available on &lt;a href=&#34;https://github.com/pradhansmriti/HBV_enm&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>AgenticVMD</title>
+				<link>https://pradhansmriti.github.io/projects/agentic-vmd/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://pradhansmriti.github.io/projects/agentic-vmd/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A natural language interface for &lt;a href=&#34;https://www.ks.uiuc.edu/Research/vmd/&#34;&gt;VMD (Visual Molecular Dynamics)&lt;/a&gt;. Upload a PDB file or RCSB PDB ID, describe a visualization in plain English, and get a rendered image.&lt;/p&gt;&#xA;&lt;p&gt;VMD is a powerful tool for visualizing and analyzing molecular structures, but generating the Tcl scripts it requires can be a steep barrier as it is not a common scripting language even among computational scientists. AgenticVMD removes that barrier by letting users describe what they want to see and handling the translation automatically and you can also edit the TCL script and use it yourself.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Binding Affinity ML</title>
+				<link>https://pradhansmriti.github.io/projects/binding-affinity-ml/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://pradhansmriti.github.io/projects/binding-affinity-ml/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;One of the most important — and expensive — questions in drug discovery is: &lt;em&gt;does this molecule actually stick to its target?&lt;/em&gt; When a drug works, a small molecule fits snugly into a protein and disrupts or activates it. The strength of that fit is called &lt;strong&gt;binding affinity&lt;/strong&gt;, measured as pKd — the higher the number, the tighter the grip.&lt;/p&gt;&#xA;&lt;p&gt;Running experiments to measure binding affinity for thousands of drug candidates is slow and costly. This project explores how well a machine learning model can predict it directly from the 3D structure of a protein–ligand complex.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

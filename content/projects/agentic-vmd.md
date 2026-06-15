@@ -3,7 +3,7 @@ title: "AgenticVMD"
 description: "An LLM-powered chatbot that converts plain English into VMD Tcl scripts to visualize and interact with molecular structures."
 image: "/images/vmdagent2.png"
 github: "https://github.com/pradhansmriti/agentic_vmd"
-tags: ["LLM", "Python", "VMD", "Molecular Visualization"]
+tags: ["LLM", "Python", "VMD", "Molecular Visualization","Claude","Anthropic","Tool-use-API"]
 layout: "project-detail"
 weight: 3
 ---

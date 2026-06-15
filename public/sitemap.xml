@@ -2,78 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/projects/hbv-monte-carlo/</loc>
+    <loc>https://pradhansmriti.github.io/projects/hbv-monte-carlo/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/hbv-elastic-network/</loc>
+    <loc>https://pradhansmriti.github.io/projects/hbv-elastic-network/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/agentic-vmd/</loc>
+    <loc>https://pradhansmriti.github.io/projects/agentic-vmd/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/binding-affinity-ml/</loc>
+    <loc>https://pradhansmriti.github.io/projects/binding-affinity-ml/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/computational-biology/</loc>
+    <loc>https://pradhansmriti.github.io/tags/computational-biology/</loc>
     <lastmod>2025-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markov-models/</loc>
+    <loc>https://pradhansmriti.github.io/tags/markov-models/</loc>
     <lastmod>2025-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mathematics/</loc>
+    <loc>https://pradhansmriti.github.io/tags/mathematics/</loc>
     <lastmod>2025-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://pradhansmriti.github.io/post/</loc>
     <lastmod>2025-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/research/</loc>
+    <loc>https://pradhansmriti.github.io/tags/research/</loc>
     <lastmod>2025-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://pradhansmriti.github.io/tags/</loc>
     <lastmod>2025-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/2025/09/17/why-i-love-markov-state-models-and-so-should-you/</loc>
+    <loc>https://pradhansmriti.github.io/post/2025/09/17/why-i-love-markov-state-models-and-so-should-you/</loc>
     <lastmod>2025-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/2025/05/07/my-lessons-from-gaming/</loc>
+    <loc>https://pradhansmriti.github.io/post/2025/05/07/my-lessons-from-gaming/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/2025/02/02/my-first-blogpost-this-time-for-sure/</loc>
+    <loc>https://pradhansmriti.github.io/post/2025/02/02/my-first-blogpost-this-time-for-sure/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://pradhansmriti.github.io/</loc>
     <lastmod>2024-04-03T18:48:27-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://pradhansmriti.github.io/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/biophysics/</loc>
+    <loc>https://pradhansmriti.github.io/tags/anthropic/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://pradhansmriti.github.io/tags/biophysics/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/drug-discovery/</loc>
+    <loc>https://pradhansmriti.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/hbv/</loc>
+    <loc>https://pradhansmriti.github.io/tags/claude/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/llm/</loc>
+    <loc>https://pradhansmriti.github.io/tags/drug-discovery/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/machine-learning/</loc>
+    <loc>https://pradhansmriti.github.io/tags/hbv/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/molecular-visualization/</loc>
+    <loc>https://pradhansmriti.github.io/tags/llm/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/monte-carlo/</loc>
+    <loc>https://pradhansmriti.github.io/tags/machine-learning/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/network-models/</loc>
+    <loc>https://pradhansmriti.github.io/tags/molecular-visualization/</loc>
   </url><url>
-    <loc>http://localhost:1313/outreach/</loc>
+    <loc>https://pradhansmriti.github.io/tags/monte-carlo/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://pradhansmriti.github.io/tags/network-models/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
+    <loc>https://pradhansmriti.github.io/outreach/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/rdkit/</loc>
+    <loc>https://pradhansmriti.github.io/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/resume/</loc>
+    <loc>https://pradhansmriti.github.io/tags/python/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/structural-biology/</loc>
+    <loc>https://pradhansmriti.github.io/tags/rdkit/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/vmd/</loc>
+    <loc>https://pradhansmriti.github.io/resume/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/xgboost/</loc>
+    <loc>https://pradhansmriti.github.io/tags/structural-biology/</loc>
+  </url><url>
+    <loc>https://pradhansmriti.github.io/tags/tool-use-api/</loc>
+  </url><url>
+    <loc>https://pradhansmriti.github.io/tags/vmd/</loc>
+  </url><url>
+    <loc>https://pradhansmriti.github.io/tags/xgboost/</loc>
   </url>
 </urlset>
