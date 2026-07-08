@@ -68,4 +68,4 @@ The main limitation is that the pipeline works from **static crystal structures*
 
 ## Code
 
-The code for this project is available on [GitHub](https://github.com/smritipradhan/binding_affinity_ml).
+The code for this project is available on [GitHub](https://github.com/pradhansmriti/ml_binding_affinity).
