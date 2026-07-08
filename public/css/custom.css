@@ -372,3 +372,12 @@ body {
   }
 }
 
+/* Table striping — override theme's light #eee stripe, which makes
+   text invisible against this site's dark background/light text. */
+table thead,
+table tfoot,
+table tr:nth-child(even) {
+  background: rgba(255, 199, 236, 0.08);
+  color: #f2edef;
+}
+

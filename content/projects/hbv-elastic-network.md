@@ -5,7 +5,7 @@ image: "/images/cpabcd_14.jpg"
 github: "https://github.com/pradhansmriti/HBV_enm"
 layout: "project-detail"
 tags: ["Network Models", "Python", "Structural Biology", "HBV"]
-weight: 2
+weight: 4
 ---
 
 ## Overview

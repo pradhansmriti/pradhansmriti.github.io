@@ -5,7 +5,7 @@ image: "/images/lowsalt.png"
 github: "https://github.com/pradhansmriti/hbv_dimerdrug"
 layout: "project-detail"
 tags: ["Monte Carlo", "Python", "Biophysics", "HBV"]
-weight: 1
+weight: 3
 ---
 
 ## Overview

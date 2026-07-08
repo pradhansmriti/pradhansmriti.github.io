@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>VMD on Smriti Pradhan</title>
-		<link>https://pradhansmriti.github.io/tags/vmd/</link>
+		<link>http://localhost:1314/tags/vmd/</link>
 		<description>Recent content in VMD on Smriti Pradhan</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,12 +10,12 @@
 		
 		
 		
-			<atom:link href="https://pradhansmriti.github.io/tags/vmd/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1314/tags/vmd/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>AgenticVMD</title>
-				<link>https://pradhansmriti.github.io/projects/agentic-vmd/</link>
+				<link>http://localhost:1314/projects/agentic-vmd/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://pradhansmriti.github.io/projects/agentic-vmd/</guid>
+				<guid>http://localhost:1314/projects/agentic-vmd/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A natural language interface for &lt;a href=&#34;https://www.ks.uiuc.edu/Research/vmd/&#34;&gt;VMD (Visual Molecular Dynamics)&lt;/a&gt;. Upload a PDB file or RCSB PDB ID, describe a visualization in plain English, and get a rendered image.&lt;/p&gt;&#xA;&lt;p&gt;VMD is a powerful tool for visualizing and analyzing molecular structures, but generating the Tcl scripts it requires can be a steep barrier as it is not a common scripting language even among computational scientists. AgenticVMD removes that barrier by letting users describe what they want to see and handling the translation automatically and you can also edit the TCL script and use it yourself.&lt;/p&gt;</description>
 			</item>
 	</channel>

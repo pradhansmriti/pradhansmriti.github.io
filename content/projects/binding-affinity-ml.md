@@ -5,7 +5,7 @@ image: "/images/binding_model_comparison.png"
 github: "https://github.com/smritipradhan/binding_affinity_ml"
 tags: ["Machine Learning", "Drug Discovery", "Python", "Biophysics", "RDKit", "XGBoost"]
 layout: "project-detail"
-weight: 4
+weight: 2
 ---
 
 ## Overview
