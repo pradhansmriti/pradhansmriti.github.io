@@ -1,26 +1,9 @@
-<!-- layouts/partials/footer_custom.html -->
-<footer>
-	  <p>
-	      <a href="https://linkedin.com/in/pradhan-smriti" target="_blank" rel="noopener">
-		            <i class="fab fa-linkedin fa-2x"></i>
-			        </a>
-				    <a href="https://github.com/pradhansmriti" target="_blank" rel="noopener" style="margin-left: 15px;">
-					          <i class="fab fa-github fa-2x"></i>
-						      </a>
-						        </p>
-</footer>
-<!-- KaTeX CSS -->
+<div class="footer-content">
+<p>Smriti Pradhan <span>· Physics, code, and curiosity.</span></p>
+<div class="footer-links"><a href="mailto:smritipradhan98@gmail.com">Email</a><a href="https://linkedin.com/in/pradhan-smriti">LinkedIn</a><a href="https://github.com/pradhansmriti">GitHub</a></div>
+</div>
+{{ if eq .Section "post" }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
-
-<!-- KaTeX JS -->
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
-											          onload="renderMathInElement(document.body, {
-												          delimiters: [
-												            {left: '$$', right: '$$', display: true},
-												            {left: '$', right: '$', display: false}
-												          ],
-												          throwOnError: false
-												      });">
-</script>
-
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous" onload="renderMathInElement(document.querySelector('main'), {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false});"></script>
+{{ end }}

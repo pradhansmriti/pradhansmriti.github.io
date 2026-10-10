@@ -16,16 +16,19 @@ menu:
     - name: About
       url: "about/"
       weight: 2
-    - name: Posts
+    - name: Writing
       url: "post/"
-      weight: 3
+      weight: 5
     - name: Projects
       url: "projects/"
+      weight: 3
+    - name: Experience
+      url: "resume/"
       weight: 4
     #- name: Foraging
      # url: "links/"
 params:
-  description: "A website built through Hugo."
+  description: "Smriti Pradhan: computational science, biological simulation, scientific machine learning, and notes from science and life."
   
   # Giscus comments configuration
   giscus:

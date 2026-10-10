@@ -1,29 +1,27 @@
 ---
 title: "Elastic Network Model for HBV Assembly"
-description: "Elastic network model (ENM) to study HBV capsid assembly dynamics, providing structural mechanics insights into how viral capsids form."
-image: "/images/cpabcd_14.jpg"
+description: "A coarse-grained model for studying the structural mechanics and dynamics of Hepatitis B virus assembly."
 github: "https://github.com/pradhansmriti/HBV_enm"
 layout: "project-detail"
 tags: ["Network Models", "Python", "Structural Biology", "HBV"]
 weight: 4
+lastmod: 2026-10-10
 ---
 
-## Overview
+## The question
 
-Add a detailed overview of this project here.
+How can we study the mechanics of viral assembly without tracking every atom? My work uses a coarse-grained elastic network model to represent the interactions and flexibility of Hepatitis B virus proteins.
 
-## Methods
+## My approach
 
-Describe your elastic network model setup, parameters, and approach.
+I developed the model using OpenMM and NAMD, with parameters learned from all-atom simulation data. The goal is to retain the structural and dynamical behavior relevant to assembly while making larger-scale simulations more tractable.
 
-## Results
-<video controls width="80%">
-  <source src="/images/capsid_ENM.mp4" type="video/mp4">
-</video>
+High-performance computing and enhanced sampling support the exploration of assembly events that are difficult to observe in conventional simulation trajectories.
 
+## Why it matters
 
-Add figures, plots, and key findings here.
+Coarse-graining requires decisions about what to preserve and what to simplify. This project connects molecular detail to a model that can be used to investigate assembly dynamics.
 
 ## Code
 
-The code for this project is available on [GitHub](https://github.com/pradhansmriti/HBV_enm).
+Explore the [model repository](https://github.com/pradhansmriti/HBV_enm).

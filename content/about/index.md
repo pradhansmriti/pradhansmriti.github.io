@@ -1,35 +1,32 @@
-I develop scalable machine learning systems to simplify complex simulations and data, improving efficiency and reducing costs.
-
-I am a PhD candidate in Physics specializing in machine learning, simulation, and high-performance computing. My research models effect of protein-protein interaction on viral assembly and converts high-dimensional physical systems into efficient computational frameworks.
-
-Recently, I developed a machine learning–optimized coarse-grained elastic network model for Hepatitis B virus assembly using OpenMM and NAMD. By learning parameters from all-atom simulations, I achieved:
-
-* Reduced simulation cost by 94% (5,000 atoms → 300 beads)
-* Achieved ~17× speedup while preserving key structural and dynamical properties
-* Accelerated simulations by an additional ~20× via parallelization on HPC clusters
-* Enabled ~50× better sampling of rare events (e.g., oligomer formation) using weighted ensemble methods
-
-Beyond accelerating simulations, I also:
-
-* Extended a C++ kinetic Monte Carlo framework to model drug-binding effects on viral assembly
-* Built Markov State Models to extract interpretable assembly pathways
-* Produced computational results that directly complemented and guided in vitro experiments
-
-I design machine learning–driven models, optimize them for scalability, build supporting infrastructure, and extract actionable insights from large-scale computational systems.
-
-My strengths include:
-
-* Probabilistic & stochastic modeling
-* Machine learning for structured scientific data
-* Performance optimization & parallel computing
-* End-to-end computational pipeline design
-
-I excel in high-ownership, technically ambitious environments, especially in machine learning–driven startups where solving complex problems demands both mathematical rigor and practical execution.
-
-I am seeking industry roles beginning March 2026 in machine learning, applied research, or computational engineering.
-
 ---
-{{< figure src="../images/postpics/ezgif.com-animated-gif-maker.gif" width="400px" height="auto" caption="Some protein on protein action for you">}}
+title: "About me"
+description: "My path from physics to computational biology, and the things I'm learning along the way."
+lastmod: 2026-10-10
+---
+# A physicist who learned to love programming
 
+I completed my Physics PhD in August 2026. I started in condensed matter theory. During my doctoral research, I moved into computational biophysics, studying how proteins come together to form viral shells. That shift changed both the questions I asked and the tools I used to answer them.
 
+Programming wasn't something I loved from the beginning. Learning it over a summer, and seeing how it made me a better scientist, was one of my most rewarding experiences. Today, code is how I explore ideas: build a model, see what it does, and work out what the results can tell us.
 
+## What I work on
+
+My research focuses on Hepatitis B virus assembly. I use coarse-grained simulations, elastic network models, kinetic Monte Carlo methods, and Markov State Models to study molecular interactions and assembly pathways.
+
+I also work on projects beyond my core research: predicting protein–ligand binding affinity with machine learning and building a natural language interface for molecular visualization. I like work that connects a scientific question to a tool someone can actually use.
+
+[Explore my projects →](/projects/)
+
+## The person behind the simulations
+
+I enjoy learning things that initially feel intimidating. Gaming has been one of those experiments: getting comfortable with fumbling, trying again, and letting the process be enjoyable before being good at it. I wrote about that in [my lessons from gaming](/post/2025/05/07/my-lessons-from-gaming/).
+
+Writing here is another experiment. English is my third language, and putting unfinished thoughts into the world has taken some practice. I use this site to share what I'm learning, in science and outside it, and to make room for conversations I wouldn't otherwise have.
+
+[Read my writing →](/post/)
+
+## Let's talk
+
+I'm available to start immediately and interested in opportunities in computational science, scientific machine learning, and applied research. I enjoy problems that call for both mathematical reasoning and building something that works.
+
+You can reach me at [smritipradhan98@gmail.com](mailto:smritipradhan98@gmail.com), find my code on [GitHub](https://github.com/pradhansmriti), or connect on [LinkedIn](https://linkedin.com/in/pradhan-smriti).

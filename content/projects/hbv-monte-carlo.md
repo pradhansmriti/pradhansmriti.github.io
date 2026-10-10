@@ -1,33 +1,25 @@
 ---
 title: "Kinetic Monte Carlo Simulations for HBV"
-description: "Coarse-grained kinetic Monte Carlo simulations to understand the effect of different drugs on Hepatitis B Virus capsid assembly."
-image: "/images/lowsalt.png"
+description: "Stochastic simulations exploring how drug binding affects Hepatitis B virus capsid assembly."
 github: "https://github.com/pradhansmriti/hbv_dimerdrug"
 layout: "project-detail"
-tags: ["Monte Carlo", "Python", "Biophysics", "HBV"]
+tags: ["Monte Carlo", "C++", "Biophysics", "HBV"]
 weight: 3
+lastmod: 2026-10-10
 ---
 
-## Overview
+## The question
 
-Add a detailed overview of this project here.
+How does drug binding change the way viral proteins assemble into a capsid? This project studies Hepatitis B virus assembly with coarse-grained kinetic Monte Carlo simulations.
 
-## Methods
+## My contribution
 
-Describe your simulation methods, parameters, and approach.
+I extended a C++ kinetic Monte Carlo framework to model drug-binding effects on assembly. I used Markov State Models to analyze assembly pathways and kinetics, connecting simulated trajectories to interpretable descriptions of how the system evolves.
 
-## Results
+## Why it matters
 
-Add figures, plots, and key findings here.
-
-<!-- Example image:
-![Assembly pathway](/images/your-figure.png)
--->
-
-<video controls width="80%">
-  <source src="/images/T4-short.mp4" type="video/mp4">
-</video>
+Understanding assembly means looking beyond a completed structure to the pathways that produce it. These computational models complement in vitro experiments by helping investigate how molecular interactions change the process.
 
 ## Code
 
-The code for this project is available on [GitHub](https://github.com/pradhansmriti/hbv_dimerdrug).
+Explore the [simulation repository](https://github.com/pradhansmriti/hbv_dimerdrug).

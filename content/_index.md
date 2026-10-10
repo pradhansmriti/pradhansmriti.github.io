@@ -1,18 +1,26 @@
 ---
-title: ""
-date: 2024-04-03T18:48:27-04:00
+title: "Smriti Pradhan"
+description: "Computational scientist working at the intersection of physics, biological simulation, and machine learning."
+lastmod: 2026-10-10
 ---
-Hi, I'm Smriti Pradhan a recent Physics PhD graduate., studying virus self-assmebly using computational techniques. In general I'm interested in understanding complex systems with the help of science and programming. 
-## Hire me!
-I'm looking for positions in biotech/pharma, healthtech, fintech and other industries where I can work at the interface of muliple fields to work on fun problems. I'm looking for positions starting **Spring 2026**. You can me reach me at smritipradhan98@gmail.com or through linkedin. 
-<!--
-## Projects
-Most recent projects:
-- <span style="color: #ffc7ec;">*Kinetic monte carlo simulations for HBV*:</span> Part of my PhD thesis has involved working on understanding effect of different drug on HBV assembly using coarse-grained Monte Carlo simulations. [(Code)](https://github.com/pradhansmriti/hbv_dimerdrug)
-- [<span style="color: #ffc7ec;">*Elastic network model for HBV assembly*</span>](https://github.com/pradhansmriti/HBV_enm)
--->
+<div class="home-hero">
+<p class="eyebrow">Physics · Computation · Biology · Machine learning</p>
+<h1>Hi, I'm Smriti.<br>I use code to understand complex systems.</h1>
+<p class="hero-intro">I'm a computational scientist who completed a Physics PhD in August 2026. I study how viral proteins assemble, build models that make molecular simulations more tractable, and explore machine learning tools for scientific work.</p>
+<p>What connects my work is a question: how much complexity do we need to keep to understand what matters?</p>
+<div class="action-links"><a class="button primary" href="/projects/">Explore my work →</a><a class="button" href="mailto:smritipradhan98@gmail.com">Get in touch</a></div>
+</div>
 
-A list of all my projects can be found  [here](/projects).
+## What I bring
 
-## Recent posts
+<div class="strengths-grid">
+<div><h3>Physical intuition</h3><p>I turn questions about molecular behavior into computational models, from elastic networks to stochastic assembly simulations.</p></div>
+<div><h3>Practical computation</h3><p>I work with Python, C++, molecular dynamics, and high-performance computing to build and analyze simulations.</p></div>
+<div><h3>Curiosity across fields</h3><p>I apply machine learning to protein–ligand binding and build tools that connect natural language with molecular visualization.</p></div>
+</div>
 
+## Work with me
+
+I'm available to start immediately and interested in roles in computational science, scientific machine learning, and applied research where I can combine mathematical reasoning with hands-on software development. If your team works on complex scientific problems, I'd love to hear about them.
+
+[Read my experience](/resume/) · [Email me](mailto:smritipradhan98@gmail.com) · [Connect on LinkedIn](https://linkedin.com/in/pradhan-smriti)

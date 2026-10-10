@@ -1,20 +1,29 @@
 {{ partial "header.html" . }}
-
-{{if not .IsHome }}
-<h1>{{ .Title | markdownify }}</h1>
-{{ end }}
-
+<main id="main-content">
+{{ if not .IsHome }}<h1>{{ .Title | markdownify }}</h1>{{ end }}
 {{ .Content }}
-
-<ul>
-  {{ $pages := .Pages }}
-  {{ if .IsHome }}{{ $pages = (where .Site.RegularPages "Section" "post") }}{{ end }}
-  {{ range (where $pages "Section" "!=" "") }}
-  <li>
-    <span class="date">{{ .Date.Format "01/02/2006" }}</span>
-    <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-  </li>
-  {{ end }}
+{{ if .IsHome }}
+<section class="home-section" aria-labelledby="selected-work">
+<h2 id="selected-work">Selected work</h2>
+{{ partial "project-cards.html" (first 2 (sort (where .Site.RegularPages "Section" "projects") "Params.weight")) }}
+<p><a href="{{ "projects/" | relURL }}">See all projects →</a></p>
+</section>
+<section class="home-section" aria-labelledby="recent-writing">
+<h2 id="recent-writing">Notes from science and life</h2>
+<p>Ideas from my research, things I'm learning, and a little of the person behind the code.</p>
+<ul class="post-list">
+{{ range first 3 (where .Site.RegularPages "Section" "post").ByDate.Reverse }}
+<li><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+{{ end }}
 </ul>
-
-{{ partial "footer.html" }}
+<p><a href="{{ "about/" | relURL }}">More about me →</a> · <a href="{{ "post/" | relURL }}">All writing →</a></p>
+</section>
+{{ else }}
+<ul class="post-list">
+{{ range .Pages.ByDate.Reverse }}
+<li><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></li>
+{{ end }}
+</ul>
+{{ end }}
+</main>
+{{ partial "footer.html" . }}

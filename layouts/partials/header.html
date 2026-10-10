@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
-    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
-    <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" />
-    {{ partial "head_custom.html" . }}
-
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ .Site.Title }} · Computational Scientist{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}">
+  {{ partial "head_custom.html" . }}
 </head>
-<div class="site-header-figure">
-  <img src="/images/fights_virus.png" alt="Header Image">
-</div>
-
-  <body>
-    <nav>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-header-figure">
+    <a href="{{ "/" | relURL }}" aria-label="Smriti Pradhan — Home"><img src="{{ "images/fights_virus.png" | relURL }}" alt="" width="88" height="88"><span class="site-name">Smriti Pradhan</span></a>
+  </div>
+  <nav aria-label="Main navigation">
     <ul class="menu">
       {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+      <li><a href="{{ .URL | relURL }}"{{ if eq ($.RelPermalink) (.URL | relURL) }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
       {{ end }}
     </ul>
-    <hr/>
-    </nav>
+    <hr>
+  </nav>
