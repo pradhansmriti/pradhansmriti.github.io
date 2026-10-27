@@ -5,7 +5,7 @@ github: "https://github.com/pradhansmriti/mol_vis_sim"
 demo: "/demos/mol-vis-sim/"
 tags: ["Molecular Dynamics", "Python", "CHARMM"]
 layout: "project-detail"
-weight: 2
+weight: 0
 lastmod: 2026-10-27
 ---
 
