@@ -10,6 +10,7 @@
       {{ with .Params.tags }}<div class="project-tags">{{ range first 4 . }}<span class="tag">{{ . }}</span>{{ end }}</div>{{ end }}
       <div class="project-links">
         <a class="project-link" href="{{ .RelPermalink }}">Read the project →</a>
+        {{ with .Params.demo }}<a class="project-link" href="{{ . | relURL }}">Try demo →</a>{{ end }}
         {{ with .Params.github }}<a class="project-link" href="{{ . }}">Code ↗</a>{{ end }}
       </div>
     </div>
