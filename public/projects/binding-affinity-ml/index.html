@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1314&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Binding Affinity ML | Smriti Pradhan</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/fonts.css" />
-    
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Binding Affinity ML | Smriti Pradhan</title>
+  <meta name="description" content="Predicting protein–ligand binding affinity from crystal structures, with molecular fingerprints, tree-based models, and a sequence-identity split.">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="/css/custom.css">
 
 
-
 </head>
-<div class="site-header-figure">
-  <img src="/images/fights_virus.png" alt="Header Image">
-</div>
-
-  <body>
-    <nav>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-header-figure">
+    <a href="/" aria-label="Smriti Pradhan — Home"><img src="/images/fights_virus.png" alt="" width="88" height="88"><span class="site-name">Smriti Pradhan</span></a>
+  </div>
+  <nav aria-label="Main navigation">
     <ul class="menu">
       
       <li><a href="/">Home</a></li>
       
       <li><a href="/about/">About</a></li>
       
-      <li><a href="/post/">Posts</a></li>
-      
       <li><a href="/projects/">Projects</a></li>
       
+      <li><a href="/resume/">Experience</a></li>
+      
+      <li><a href="/post/">Writing</a></li>
+      
     </ul>
-    <hr/>
-    </nav>
+    <hr>
+  </nav>
 
-<main>
+<main id="main-content">
   <div class="project-detail">
     <div class="project-detail-header">
       
@@ -42,7 +44,7 @@
       </div>
       
       <h1>Binding Affinity ML</h1>
-      <p class="project-detail-desc">An ML pipeline that predicts protein–ligand binding affinity from 3D crystal structures, beating the published RF-Score benchmark with a strict sequence-identity split.</p>
+      <p class="project-detail-desc">Predicting protein–ligand binding affinity from crystal structures, with molecular fingerprints, tree-based models, and a sequence-identity split.</p>
       
       <div class="project-tags">
         <span class="tag">Machine Learning</span><span class="tag">Drug Discovery</span><span class="tag">Python</span><span class="tag">Biophysics</span><span class="tag">RDKit</span><span class="tag">XGBoost</span>
@@ -50,7 +52,7 @@
       
       <div class="project-detail-links">
         
-        <a href="https://github.com/smritipradhan/binding_affinity_ml" target="_blank" rel="noopener" class="project-link">
+        <a href="https://github.com/pradhansmriti/ml_binding_affinity" target="_blank" rel="noopener" class="project-link">
           <i class="fab fa-github"></i> Code
         </a>
         
@@ -74,6 +76,7 @@
 <h3 id="models">Models</h3>
 <p>Four models were trained: Linear Regression, Random Forest, XGBoost, and LightGBM. A shallow MLP (two hidden layers, PyTorch) was added as a neural network baseline. A 3-layer Graph Isomorphism Network (GIN) was also evaluated, operating on SMILES-derived molecular graphs with 35-dimensional atom node features and 8 interaction features appended at the graph level.</p>
 <h2 id="results">Results</h2>
+<p>The reported test results below use this project’s sequence-identity split. Comparisons to published benchmarks require matching datasets and evaluation protocols.</p>
 <table>
 	<thead>
 			<tr>
@@ -103,21 +106,16 @@
 					<td>1.610</td>
 					<td>0.304</td>
 			</tr>
-			<tr>
-					<td><em>Published RF-Score benchmark</em></td>
-					<td><em>~1.48</em></td>
-					<td><em>~0.52</em></td>
-			</tr>
 	</tbody>
 </table>
 <p><img src="/images/binding_model_comparison.png" alt="Model comparison on the validation set: RMSE, R², and Pearson r across Linear Regression, Random Forest, XGBoost, and LightGBM"></p>
 <p>Tree-based models clustered tightly together and far ahead of the linear baseline. Random Forest came out narrowly on top, and its predictions track the experimental pKd values closely across the full affinity range:</p>
 <p><img src="/images/binding_residuals.png" alt="Random Forest predicted vs. actual pKd and the residual distribution, centred near zero"></p>
-<p><strong>Morgan fingerprints were the single biggest improvement</strong> — adding 2,048 structural bits pushed test R² from ~0.39 to 0.57 and RMSE from ~1.51 to 1.265. Tree models outperformed the neural network, which is expected at this dataset size (~3,000 training examples).</p>
-<p><strong>SHAP analysis</strong> confirmed the model learned real chemistry: the top features by importance were hydrophobic contact count, molecular weight, total atom contacts, lipophilicity, and pocket size — all quantities medicinal chemists care about.</p>
+<p><strong>Morgan fingerprints were the single biggest improvement</strong> — adding 2,048 structural bits pushed test R² from ~0.39 to 0.57 and RMSE from ~1.51 to 1.265. Tree models outperformed the neural network, on this dataset (~3,000 training examples).</p>
+<p><strong>SHAP analysis</strong> highlighted chemically interpretable features: the top features by importance were hydrophobic contact count, molecular weight, total atom contacts, lipophilicity, and pocket size — all quantities medicinal chemists care about.</p>
 <p><img src="/images/binding_shap_beeswarm.png" alt="SHAP beeswarm plot for the tuned XGBoost model, with hydrophobic_count, mol_weight, and atom_contacts as the most influential features"></p>
-<p>The beeswarm view also shows the <em>direction</em> of each effect: more hydrophobic contacts and larger pocket sizes push predicted affinity up, consistent with how real binding works. Individual Morgan fingerprint bits (e.g. <code>fp_1771</code>, <code>fp_1476</code>) each contribute a little, but collectively the 2,048-bit structural barcode is what closed most of the gap to the benchmark.</p>
-<p>The GIN matched the published benchmark but trailed Random Forest, consistent with the known pattern that GNNs need ~50k+ samples to outperform gradient-boosted trees on small tabular datasets.</p>
+<p>The beeswarm view also shows the <em>direction</em> of each effect: more hydrophobic contacts and larger pocket sizes push predicted affinity up, consistent with how real binding works. Individual Morgan fingerprint bits (e.g. <code>fp_1771</code>, <code>fp_1476</code>) each contribute a little, but collectively the 2,048-bit structural barcode is what improved predictive performance.</p>
+<p>The GIN trailed Random Forest in this evaluation. This result gives me a reason to keep simple baselines in the pipeline and assess model complexity against the data available.</p>
 <h2 id="whats-next">What&rsquo;s Next</h2>
 <p>The main limitation is that the pipeline works from <strong>static crystal structures</strong>. Proteins flex dynamically, and binding strength often depends on how much a protein must deform to accommodate a ligand. The natural extension is to incorporate <strong>molecular dynamics (MD) simulations</strong>: run short trajectories (10–50 ns), sample hundreds of frames, and extract time-averaged features like H-bond occupancy, average pocket volume, and ligand positional fluctuations. MM-GBSA end-point free energy estimates from trajectories are another candidate feature — noisy on their own, but potentially correctable by the ML model using structural context.</p>
 <h2 id="code">Code</h2>
@@ -125,37 +123,16 @@
 
     </div>
     <div class="project-back">
-      <a href="/research/" class="project-link">← Back to Projects</a>
+      <a href="/projects/" class="project-link">← Back to Projects</a>
     </div>
   </div>
 </main>
 
   <footer>
-  
-<footer>
-	  <p>
-	      <a href="https://linkedin.com/in/pradhan-smriti" target="_blank" rel="noopener">
-		            <i class="fab fa-linkedin fa-2x"></i>
-			        </a>
-				    <a href="https://github.com/pradhansmriti" target="_blank" rel="noopener" style="margin-left: 15px;">
-					          <i class="fab fa-github fa-2x"></i>
-						      </a>
-						        </p>
-</footer>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
-
-
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
-											          onload="renderMathInElement(document.body, {
-												          delimiters: [
-												            {left: '$$', right: '$$', display: true},
-												            {left: '$', right: '$', display: false}
-												          ],
-												          throwOnError: false
-												      });">
-</script>
+  <div class="footer-content">
+<p>Smriti Pradhan <span>· Physics, code, and curiosity.</span></p>
+<div class="footer-links"><a href="mailto:smritipradhan98@gmail.com">Email</a><a href="https://linkedin.com/in/pradhan-smriti">LinkedIn</a><a href="https://github.com/pradhansmriti">GitHub</a></div>
+</div>
 
 
   

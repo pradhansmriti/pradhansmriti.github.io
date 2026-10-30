@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1314&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AgenticVMD | Smriti Pradhan</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/fonts.css" />
-    
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgenticVMD | Smriti Pradhan</title>
+  <meta name="description" content="An LLM-powered chatbot that converts plain English into VMD Tcl scripts to visualize and interact with molecular structures.">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="/css/custom.css">
 
 
-
 </head>
-<div class="site-header-figure">
-  <img src="/images/fights_virus.png" alt="Header Image">
-</div>
-
-  <body>
-    <nav>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-header-figure">
+    <a href="/" aria-label="Smriti Pradhan — Home"><img src="/images/fights_virus.png" alt="" width="88" height="88"><span class="site-name">Smriti Pradhan</span></a>
+  </div>
+  <nav aria-label="Main navigation">
     <ul class="menu">
       
       <li><a href="/">Home</a></li>
       
       <li><a href="/about/">About</a></li>
       
-      <li><a href="/post/">Posts</a></li>
-      
       <li><a href="/projects/">Projects</a></li>
       
+      <li><a href="/resume/">Experience</a></li>
+      
+      <li><a href="/post/">Writing</a></li>
+      
     </ul>
-    <hr/>
-    </nav>
+    <hr>
+  </nav>
 
-<main>
+<main id="main-content">
   <div class="project-detail">
     <div class="project-detail-header">
-      
-      <div class="project-detail-hero">
-        <img src="/images/vmdagent2.png" alt="AgenticVMD">
-      </div>
       
       <h1>AgenticVMD</h1>
       <p class="project-detail-desc">An LLM-powered chatbot that converts plain English into VMD Tcl scripts to visualize and interact with molecular structures.</p>
@@ -60,17 +58,8 @@
     <hr>
     <div class="project-detail-body">
       <h2 id="overview">Overview</h2>
-<p>A natural language interface for <a href="https://www.ks.uiuc.edu/Research/vmd/">VMD (Visual Molecular Dynamics)</a>. Upload a PDB file or RCSB PDB ID, describe a visualization in plain English, and get a rendered image.</p>
+<p>A natural language interface for <a href="https://www.ks.uiuc.edu/Research/vmd/">VMD (Visual Molecular Dynamics)</a>. Provide a PDB file or RCSB PDB ID, describe a visualization in plain English, and get a rendered image.</p>
 <p>VMD is a powerful tool for visualizing and analyzing molecular structures, but generating the Tcl scripts it requires can be a steep barrier as it is not a common scripting language even among computational scientists. AgenticVMD removes that barrier by letting users describe what they want to see and handling the translation automatically and you can also edit the TCL script and use it yourself.</p>
-<h3 id="example">Example</h3>
-<figure style="text-align:center;">
-	  <img src="/images/newoutput.gif" style="width:800px; height:auto; display:block; margin:0 auto;">
-	    <figcaption style="margin-top:8px; font-style:italic;">
-		        Demo for visualizing agent
-			  </figcaption>
-</figure>
-
-
 <h2 id="results">Results</h2>
 <p>AgenticVMD successfully converts plain-English descriptions into valid VMD Tcl scripts for a range of visualization tasks, including per-chain coloring, secondary structure representations (ribbons, cartoons, surface), atom selection, and background styling. The rendered PNG images are returned in seconds, making it practical for iterative exploration of molecular structures.</p>
 <p>The editable Tcl panel gives researchers a path from natural language to precise scripting — they can start with a prompt and refine the generated script directly, bridging the gap between novice and expert use of VMD.</p>
@@ -79,37 +68,16 @@
 
     </div>
     <div class="project-back">
-      <a href="/research/" class="project-link">← Back to Projects</a>
+      <a href="/projects/" class="project-link">← Back to Projects</a>
     </div>
   </div>
 </main>
 
   <footer>
-  
-<footer>
-	  <p>
-	      <a href="https://linkedin.com/in/pradhan-smriti" target="_blank" rel="noopener">
-		            <i class="fab fa-linkedin fa-2x"></i>
-			        </a>
-				    <a href="https://github.com/pradhansmriti" target="_blank" rel="noopener" style="margin-left: 15px;">
-					          <i class="fab fa-github fa-2x"></i>
-						      </a>
-						        </p>
-</footer>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
-
-
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
-											          onload="renderMathInElement(document.body, {
-												          delimiters: [
-												            {left: '$$', right: '$$', display: true},
-												            {left: '$', right: '$', display: false}
-												          ],
-												          throwOnError: false
-												      });">
-</script>
+  <div class="footer-content">
+<p>Smriti Pradhan <span>· Physics, code, and curiosity.</span></p>
+<div class="footer-links"><a href="mailto:smritipradhan98@gmail.com">Email</a><a href="https://linkedin.com/in/pradhan-smriti">LinkedIn</a><a href="https://github.com/pradhansmriti">GitHub</a></div>
+</div>
 
 
   

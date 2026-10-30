@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Smriti Pradhan</title>
-		<link>http://localhost:1314/</link>
+		<link>http://localhost:1313/</link>
 		<description>Recent content on Smriti Pradhan</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,78 +10,85 @@
 		
 		
 		
-			<lastBuildDate>Wed, 17 Sep 2025 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1314/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>AgenticVMD</title>
-				<link>http://localhost:1314/projects/agentic-vmd/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1314/projects/agentic-vmd/</guid>
-				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A natural language interface for &lt;a href=&#34;https://www.ks.uiuc.edu/Research/vmd/&#34;&gt;VMD (Visual Molecular Dynamics)&lt;/a&gt;. Upload a PDB file or RCSB PDB ID, describe a visualization in plain English, and get a rendered image.&lt;/p&gt;&#xA;&lt;p&gt;VMD is a powerful tool for visualizing and analyzing molecular structures, but generating the Tcl scripts it requires can be a steep barrier as it is not a common scripting language even among computational scientists. AgenticVMD removes that barrier by letting users describe what they want to see and handling the translation automatically and you can also edit the TCL script and use it yourself.&lt;/p&gt;</description>
+				<link>http://localhost:1313/projects/agentic-vmd/</link>
+				<pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/agentic-vmd/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A natural language interface for &lt;a href=&#34;https://www.ks.uiuc.edu/Research/vmd/&#34;&gt;VMD (Visual Molecular Dynamics)&lt;/a&gt;. Provide a PDB file or RCSB PDB ID, describe a visualization in plain English, and get a rendered image.&lt;/p&gt;&#xA;&lt;p&gt;VMD is a powerful tool for visualizing and analyzing molecular structures, but generating the Tcl scripts it requires can be a steep barrier as it is not a common scripting language even among computational scientists. AgenticVMD removes that barrier by letting users describe what they want to see and handling the translation automatically and you can also edit the TCL script and use it yourself.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Binding Affinity ML</title>
-				<link>http://localhost:1314/projects/binding-affinity-ml/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1314/projects/binding-affinity-ml/</guid>
+				<link>http://localhost:1313/projects/binding-affinity-ml/</link>
+				<pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/binding-affinity-ml/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;One of the most important — and expensive — questions in drug discovery is: &lt;em&gt;does this molecule actually stick to its target?&lt;/em&gt; When a drug works, a small molecule fits snugly into a protein and disrupts or activates it. The strength of that fit is called &lt;strong&gt;binding affinity&lt;/strong&gt;, measured as pKd — the higher the number, the tighter the grip.&lt;/p&gt;&#xA;&lt;p&gt;Running experiments to measure binding affinity for thousands of drug candidates is slow and costly. This project explores how well a machine learning model can predict it directly from the 3D structure of a protein–ligand complex.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Kinetic Monte Carlo Simulations for HBV</title>
-				<link>http://localhost:1314/projects/hbv-monte-carlo/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1314/projects/hbv-monte-carlo/</guid>
-				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Add a detailed overview of this project here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;&#xA;&lt;p&gt;Describe your simulation methods, parameters, and approach.&lt;/p&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;&#xA;&lt;p&gt;Add figures, plots, and key findings here.&lt;/p&gt;&#xA;&lt;!-- Example image:&#xA;![Assembly pathway](/images/your-figure.png)&#xA;--&gt;&#xA;&lt;video controls width=&#34;80%&#34;&gt;&#xA;  &lt;source src=&#34;http://localhost:1314/images/T4-short.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xA;&lt;/video&gt;&#xA;&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;&#xA;&lt;p&gt;The code for this project is available on &lt;a href=&#34;https://github.com/pradhansmriti/hbv_dimerdrug&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+				<link>http://localhost:1313/projects/hbv-monte-carlo/</link>
+				<pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/hbv-monte-carlo/</guid>
+				<description>&lt;h2 id=&#34;the-question&#34;&gt;The question&lt;/h2&gt;&#xA;&lt;p&gt;How does drug binding change the way viral proteins assemble into a capsid? This project studies Hepatitis B virus assembly with coarse-grained kinetic Monte Carlo simulations.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-contribution&#34;&gt;My contribution&lt;/h2&gt;&#xA;&lt;p&gt;I extended a C++ kinetic Monte Carlo framework to model drug-binding effects on assembly. I used Markov State Models to analyze assembly pathways and kinetics, connecting simulated trajectories to interpretable descriptions of how the system evolves.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-it-matters&#34;&gt;Why it matters&lt;/h2&gt;&#xA;&lt;p&gt;Understanding assembly means looking beyond a completed structure to the pathways that produce it. These computational models complement in vitro experiments by helping investigate how molecular interactions change the process.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Elastic Network Model for HBV Assembly</title>
-				<link>http://localhost:1314/projects/hbv-elastic-network/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1314/projects/hbv-elastic-network/</guid>
-				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Add a detailed overview of this project here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;&#xA;&lt;p&gt;Describe your elastic network model setup, parameters, and approach.&lt;/p&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;&#xA;&lt;video controls width=&#34;80%&#34;&gt;&#xA;  &lt;source src=&#34;http://localhost:1314/images/capsid_ENM.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xA;&lt;/video&gt;&#xA;&lt;p&gt;Add figures, plots, and key findings here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;&#xA;&lt;p&gt;The code for this project is available on &lt;a href=&#34;https://github.com/pradhansmriti/HBV_enm&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+				<link>http://localhost:1313/projects/hbv-elastic-network/</link>
+				<pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/hbv-elastic-network/</guid>
+				<description>&lt;h2 id=&#34;the-question&#34;&gt;The question&lt;/h2&gt;&#xA;&lt;p&gt;How can we study the mechanics of viral assembly without tracking every atom? My work uses a coarse-grained elastic network model to represent the interactions and flexibility of Hepatitis B virus proteins.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-approach&#34;&gt;My approach&lt;/h2&gt;&#xA;&lt;p&gt;I developed the model using OpenMM and NAMD, with parameters learned from all-atom simulation data. The goal is to retain the structural and dynamical behavior relevant to assembly while making larger-scale simulations more tractable.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>About me</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;h1 id=&#34;a-physicist-who-learned-to-love-programming&#34;&gt;A physicist who learned to love programming&lt;/h1&gt;&#xA;&lt;p&gt;I completed my Physics PhD in August 2026. I started in condensed matter theory. During my doctoral research, I moved into computational biophysics, studying how proteins come together to form viral shells. That shift changed both the questions I asked and the tools I used to answer them.&lt;/p&gt;&#xA;&lt;p&gt;Programming wasn&amp;rsquo;t something I loved from the beginning. Learning it over a summer, and seeing how it made me a better scientist, was one of my most rewarding experiences. Today, code is how I explore ideas: build a model, see what it does, and work out what the results can tell us.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Experience</title>
+				<link>http://localhost:1313/resume/</link>
+				<pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/resume/</guid>
+				<description>&lt;h1 id=&#34;experience&#34;&gt;Experience&lt;/h1&gt;&#xA;&lt;p&gt;My background is in physics and computational biophysics, with a focus on modeling complex biological systems. My work combines simulation, statistical analysis, machine learning, and scientific software development.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;mailto:smritipradhan98@gmail.com&#34;&gt;Contact me&lt;/a&gt; · &lt;a href=&#34;https://linkedin.com/in/pradhan-smriti&#34;&gt;LinkedIn&lt;/a&gt; · &lt;a href=&#34;https://github.com/pradhansmriti&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;PhD in Physics · Completed August 2026&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;doctoral-research--hepatitis-b-virus-assembly&#34;&gt;Doctoral research · Hepatitis B virus assembly&lt;/h2&gt;&#xA;&lt;p&gt;I study how protein interactions shape viral assembly and how drug binding changes the process.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed coarse-grained elastic network models using OpenMM and NAMD, learning model parameters from all-atom simulation data.&lt;/li&gt;&#xA;&lt;li&gt;Used high-performance computing and weighted ensemble methods to explore rare assembly events.&lt;/li&gt;&#xA;&lt;li&gt;Extended a C++ kinetic Monte Carlo framework to model the effects of drug binding.&lt;/li&gt;&#xA;&lt;li&gt;Built Markov State Models to analyze assembly pathways and kinetics.&lt;/li&gt;&#xA;&lt;li&gt;Produced computational results that complemented in vitro experiments.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/projects/hbv-elastic-network/&#34;&gt;Elastic network modeling&lt;/a&gt; · &lt;a href=&#34;http://localhost:1313/projects/hbv-monte-carlo/&#34;&gt;Kinetic Monte Carlo simulations&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Outreach and teaching</title>
+				<link>http://localhost:1313/outreach/</link>
+				<pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/outreach/</guid>
+				<description>&lt;h1 id=&#34;sharing-what-i-learn&#34;&gt;Sharing what I learn&lt;/h1&gt;&#xA;&lt;p&gt;I write about the tools and ideas I use in research, as well as my own experience learning new things. &lt;a href=&#34;http://localhost:1313/post/&#34;&gt;Read my writing&lt;/a&gt; or &lt;a href=&#34;mailto:smritipradhan98@gmail.com&#34;&gt;get in touch&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Understanding Navier Stokes and OpenAI from a physics grad perspective</title>
+				<link>http://localhost:1313/post/2026/09/09/understanding-navier-stokes-and-openai-from-a-physics-grad-perspective/</link>
+				<pubDate>Wed, 09 Sep 2026 18:43:29 -0700</pubDate>
+				<guid>http://localhost:1313/post/2026/09/09/understanding-navier-stokes-and-openai-from-a-physics-grad-perspective/</guid>
+				<description>&lt;p&gt;Questions to answer:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;What is Navier Stokes? Before that why study continuum  mechanics? How study? What are the problems?&lt;/li&gt;&#xA;&lt;li&gt;How it&amp;rsquo;s solved numerically&lt;/li&gt;&#xA;&lt;li&gt;What is the millenium prize question&lt;/li&gt;&#xA;&lt;li&gt;Implications&lt;/li&gt;&#xA;&lt;li&gt;What it doesn&amp;rsquo;t answer&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;As a physics graduate who is not an expert in this field, I wanted to go back to my undergrad understanding of Navier-Stokes and what does it mean for OpenAI to solve this Millenium problem. This post might contain errors so please let me know. I&amp;rsquo;m using this an exercise for non-scientific audience so I&amp;rsquo;ll be starting from the very basics.&#xA;Usually when we model any object in the understand the universe our first step is to understand what the force equation might look like.In it&amp;rsquo;s simplest terms it&amp;rsquo;s just:&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Why I Love Markov State Models (And So Should You)</title>
-				<link>http://localhost:1314/post/2025/09/17/why-i-love-markov-state-models-and-so-should-you/</link>
+				<link>http://localhost:1313/post/2025/09/17/why-i-love-markov-state-models-and-so-should-you/</link>
 				<pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1314/post/2025/09/17/why-i-love-markov-state-models-and-so-should-you/</guid>
+				<guid>http://localhost:1313/post/2025/09/17/why-i-love-markov-state-models-and-so-should-you/</guid>
 				<description>&lt;p&gt;Markov State Models (MSMs) are one of those mathematical tools that, once you understand them, you start seeing applications everywhere. As someone who has used them extensively in my research, I wanted to share why I find them so powerful and versatile. Over the course of this post, we&amp;rsquo;ll explore their history, fundamentals, and applications that extend far beyond their traditional use in computational biochemistry.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-brief-history&#34;&gt;A Brief History&lt;/h2&gt;&#xA;&lt;p&gt;The foundation for what we now call Markov processes was laid by Russian mathematician &lt;strong&gt;Andrey Markov&lt;/strong&gt; in 1906. His work on chains of dependent random variables would eventually become one of the most important concepts in probability theory and has applications spanning from weather prediction to protein folding.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>My lessons from gaming</title>
-				<link>http://localhost:1314/post/2025/05/07/my-lessons-from-gaming/</link>
+				<link>http://localhost:1313/post/2025/05/07/my-lessons-from-gaming/</link>
 				<pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1314/post/2025/05/07/my-lessons-from-gaming/</guid>
+				<guid>http://localhost:1313/post/2025/05/07/my-lessons-from-gaming/</guid>
 				<description>&lt;p&gt;For anyone who knows me, my absolute lack of hand-eye coordination is pretty obvious. A scooter ride gone bad in high school, left me with a half functioning elbow and two neourologically numb fingers on my left hand.&lt;/p&gt;&#xA;&lt;p&gt;One of the biggest reason that I&amp;rsquo;m a strictly computational scientist is my extremely shaky hands and general propensity to drop things. I think the most challenging course for me was my second year Optics lab course at IITK. I cannot count the number of times I almost broke during down lab because I couldn&amp;rsquo;t align the lenses properly. I think the weeks working on Michaelson Interferometer where one of the most difficult weeks of my life. To Prof. Saikat Ghosh my instructor, and Smit Choudhay my labmate if you ever come across my blog I owe you me passing that course. Hence, began a hate relationship with experiments. Luckily for me, I loved math which meant I did not have to give up my dreams of becoming a physicist.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>My first blogpost: This time for sure</title>
-				<link>http://localhost:1314/post/2025/02/02/my-first-blogpost-this-time-for-sure/</link>
+				<link>http://localhost:1313/post/2025/02/02/my-first-blogpost-this-time-for-sure/</link>
 				<pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1314/post/2025/02/02/my-first-blogpost-this-time-for-sure/</guid>
+				<guid>http://localhost:1313/post/2025/02/02/my-first-blogpost-this-time-for-sure/</guid>
 				<description>&lt;p&gt;I have a confession to make. This website has been in the development stage for more than a year. I have had a layout ready this whole time. I figured out how to make Hugo work to my liking for months. But the &amp;ldquo;rate determining step&amp;rdquo; has been my apprehension to write that first post.&lt;/p&gt;&#xA;&lt;p&gt;I have never written a blog post, countless dear diary entries sure but I haven&amp;rsquo;t ever put my partially cooked thoughts out on the internet before. And when I say that I mean I am one of those quite internet lurkers. Upon some self reflection I have realized a couple of reasons for this. The first one is I never thought I was interesting enough. I don&amp;rsquo;t like saying something when I believe I&amp;rsquo;m not bringing anything new to the conversation. I believed in a world where almost everyone shares their opinions on everything, my perspective was not unique. Maybe that&amp;rsquo;s still true but as a true 21st century human I have to try shouting my thoughts at the internet void anyway. The other reason was I&amp;rsquo;m a perfectionist, it&amp;rsquo;s a problem but I hate making mistakes. And English is my third language, so that means making lots of grammatical mistakes. As a sidenote if you spot any let me know! I&amp;rsquo;m trying not to use ChatGPT and using this as a writing exercise. And this lack of fluency made me even more nervous about blogging.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title></title>
-				<link>http://localhost:1314/about/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1314/about/</guid>
-				<description>&lt;p&gt;I develop scalable machine learning systems to simplify complex simulations and data, improving efficiency and reducing costs.&lt;/p&gt;&#xA;&lt;p&gt;I am a PhD candidate in Physics specializing in machine learning, simulation, and high-performance computing. My research models effect of protein-protein interaction on viral assembly and converts high-dimensional physical systems into efficient computational frameworks.&lt;/p&gt;&#xA;&lt;p&gt;Recently, I developed a machine learning–optimized coarse-grained elastic network model for Hepatitis B virus assembly using OpenMM and NAMD. By learning parameters from all-atom simulations, I achieved:&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Outreach and teaching</title>
-				<link>http://localhost:1314/outreach/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1314/outreach/</guid>
-				<description>&lt;p&gt;boop&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Resume</title>
-				<link>http://localhost:1314/resume/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1314/resume/</guid>
-				<description></description>
 			</item>
 	</channel>
 </rss>

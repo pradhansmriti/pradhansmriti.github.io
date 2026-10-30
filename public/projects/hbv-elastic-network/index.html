@@ -1,48 +1,46 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1314&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Elastic Network Model for HBV Assembly | Smriti Pradhan</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/fonts.css" />
-    
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elastic Network Model for HBV Assembly | Smriti Pradhan</title>
+  <meta name="description" content="A coarse-grained model for studying the structural mechanics and dynamics of Hepatitis B virus assembly.">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="/css/custom.css">
 
 
-
 </head>
-<div class="site-header-figure">
-  <img src="/images/fights_virus.png" alt="Header Image">
-</div>
-
-  <body>
-    <nav>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-header-figure">
+    <a href="/" aria-label="Smriti Pradhan — Home"><img src="/images/fights_virus.png" alt="" width="88" height="88"><span class="site-name">Smriti Pradhan</span></a>
+  </div>
+  <nav aria-label="Main navigation">
     <ul class="menu">
       
       <li><a href="/">Home</a></li>
       
       <li><a href="/about/">About</a></li>
       
-      <li><a href="/post/">Posts</a></li>
-      
       <li><a href="/projects/">Projects</a></li>
       
+      <li><a href="/resume/">Experience</a></li>
+      
+      <li><a href="/post/">Writing</a></li>
+      
     </ul>
-    <hr/>
-    </nav>
+    <hr>
+  </nav>
 
-<main>
+<main id="main-content">
   <div class="project-detail">
     <div class="project-detail-header">
       
-      <div class="project-detail-hero">
-        <img src="/images/cpabcd_14.jpg" alt="Elastic Network Model for HBV Assembly">
-      </div>
-      
       <h1>Elastic Network Model for HBV Assembly</h1>
-      <p class="project-detail-desc">Elastic network model (ENM) to study HBV capsid assembly dynamics, providing structural mechanics insights into how viral capsids form.</p>
+      <p class="project-detail-desc">A coarse-grained model for studying the structural mechanics and dynamics of Hepatitis B virus assembly.</p>
       
       <div class="project-tags">
         <span class="tag">Network Models</span><span class="tag">Python</span><span class="tag">Structural Biology</span><span class="tag">HBV</span>
@@ -59,51 +57,28 @@
     </div>
     <hr>
     <div class="project-detail-body">
-      <h2 id="overview">Overview</h2>
-<p>Add a detailed overview of this project here.</p>
-<h2 id="methods">Methods</h2>
-<p>Describe your elastic network model setup, parameters, and approach.</p>
-<h2 id="results">Results</h2>
-<video controls width="80%">
-  <source src="/images/capsid_ENM.mp4" type="video/mp4">
-</video>
-<p>Add figures, plots, and key findings here.</p>
+      <h2 id="the-question">The question</h2>
+<p>How can we study the mechanics of viral assembly without tracking every atom? My work uses a coarse-grained elastic network model to represent the interactions and flexibility of Hepatitis B virus proteins.</p>
+<h2 id="my-approach">My approach</h2>
+<p>I developed the model using OpenMM and NAMD, with parameters learned from all-atom simulation data. The goal is to retain the structural and dynamical behavior relevant to assembly while making larger-scale simulations more tractable.</p>
+<p>High-performance computing and enhanced sampling support the exploration of assembly events that are difficult to observe in conventional simulation trajectories.</p>
+<h2 id="why-it-matters">Why it matters</h2>
+<p>Coarse-graining requires decisions about what to preserve and what to simplify. This project connects molecular detail to a model that can be used to investigate assembly dynamics.</p>
 <h2 id="code">Code</h2>
-<p>The code for this project is available on <a href="https://github.com/pradhansmriti/HBV_enm">GitHub</a>.</p>
+<p>Explore the <a href="https://github.com/pradhansmriti/HBV_enm">model repository</a>.</p>
 
     </div>
     <div class="project-back">
-      <a href="/research/" class="project-link">← Back to Projects</a>
+      <a href="/projects/" class="project-link">← Back to Projects</a>
     </div>
   </div>
 </main>
 
   <footer>
-  
-<footer>
-	  <p>
-	      <a href="https://linkedin.com/in/pradhan-smriti" target="_blank" rel="noopener">
-		            <i class="fab fa-linkedin fa-2x"></i>
-			        </a>
-				    <a href="https://github.com/pradhansmriti" target="_blank" rel="noopener" style="margin-left: 15px;">
-					          <i class="fab fa-github fa-2x"></i>
-						      </a>
-						        </p>
-</footer>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
-
-
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
-											          onload="renderMathInElement(document.body, {
-												          delimiters: [
-												            {left: '$$', right: '$$', display: true},
-												            {left: '$', right: '$', display: false}
-												          ],
-												          throwOnError: false
-												      });">
-</script>
+  <div class="footer-content">
+<p>Smriti Pradhan <span>· Physics, code, and curiosity.</span></p>
+<div class="footer-links"><a href="mailto:smritipradhan98@gmail.com">Email</a><a href="https://linkedin.com/in/pradhan-smriti">LinkedIn</a><a href="https://github.com/pradhansmriti">GitHub</a></div>
+</div>
 
 
   

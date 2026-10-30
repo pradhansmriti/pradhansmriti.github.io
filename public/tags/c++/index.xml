@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>C&#43;&#43; on Smriti Pradhan</title>
+		<link>http://localhost:1313/tags/c&#43;&#43;/</link>
+		<description>Recent content in C&#43;&#43; on Smriti Pradhan</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Kinetic Monte Carlo Simulations for HBV</title>
+				<link>http://localhost:1313/projects/hbv-monte-carlo/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/hbv-monte-carlo/</guid>
+				<description>&lt;h2 id=&#34;the-question&#34;&gt;The question&lt;/h2&gt;&#xA;&lt;p&gt;How does drug binding change the way viral proteins assemble into a capsid? This project studies Hepatitis B virus assembly with coarse-grained kinetic Monte Carlo simulations.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-contribution&#34;&gt;My contribution&lt;/h2&gt;&#xA;&lt;p&gt;I extended a C++ kinetic Monte Carlo framework to model drug-binding effects on assembly. I used Markov State Models to analyze assembly pathways and kinetics, connecting simulated trajectories to interpretable descriptions of how the system evolves.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-it-matters&#34;&gt;Why it matters&lt;/h2&gt;&#xA;&lt;p&gt;Understanding assembly means looking beyond a completed structure to the pathways that produce it. These computational models complement in vitro experiments by helping investigate how molecular interactions change the process.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
