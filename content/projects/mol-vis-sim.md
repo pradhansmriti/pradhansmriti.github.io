@@ -1,14 +1,14 @@
 ---
 title: "Molecular Simulation Workspace"
-description: "An interactive workspace for protein preparation and simulation planning. In development."
+description: "Protein preparation, periodic water boxes, and OpenMM energy and temperature traces. In development."
 github: "https://github.com/pradhansmriti/mol_vis_sim"
 demo: "/demos/mol-vis-sim/"
 tags: ["Molecular Dynamics", "Python", "CHARMM"]
 layout: "project-detail"
 weight: 0
-lastmod: 2026-10-27
+lastmod: 2026-11-02
 ---
 
-[Try the interactive ubiquitin example →](/demos/mol-vis-sim/)
+[Explore the interactive villin example →](/demos/mol-vis-sim/)
 
-Precomputed preparation results; no simulation runs in this preview.
+Saved structures and real OpenMM measurements; this browser preview replays recorded results.
