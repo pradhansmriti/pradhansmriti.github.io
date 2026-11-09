@@ -1,5 +1,16 @@
 const $=id=>document.getElementById(id),canvas=$('molecule'),ctx=canvas.getContext('2d');
 let structures={},bonds=[],metadata=null,samples=[],yaw=.45,pitch=.25,zoom=1,dragging=null,replayTimer=null;
+let guideReached=1;
+function showGuideStep(step){
+ guideReached=Math.max(guideReached,step);document.body.dataset.guideStep=String(step);
+ document.querySelectorAll('[data-guide-step]').forEach(button=>{const active=Number(button.dataset.guideStep)===step;button.disabled=Number(button.dataset.guideStep)>guideReached;if(active)button.setAttribute('aria-current','step');else button.removeAttribute('aria-current');});
+ document.querySelectorAll('[data-guide-panel]').forEach(panel=>panel.hidden=Number(panel.dataset.guidePanel)!==step);
+ if(step===2){$('stage').value='prepared';render();}
+ if(step===4)renderMeasurements();
+}
+document.querySelectorAll('[data-guide-step]').forEach(button=>button.onclick=()=>showGuideStep(Number(button.dataset.guideStep)));
+$('guide-start').onclick=()=>showGuideStep(2);$('guide-continue').onclick=()=>showGuideStep(3);$('guide-results').onclick=()=>showGuideStep(4);
+showGuideStep(1);
 const boxedStages=new Set(['solvated','final']);
 function parsePdb(text){return text.split('\n').filter(l=>['ATOM','HETATM'].includes(l.slice(0,6).trim())).map((l,index)=>({index,name:l.slice(12,16).trim(),residue:l.slice(17,21).trim(),chain:l.slice(21,22),resid:l.slice(22,27),xyz:[30,38,46].map(i=>Number(l.slice(i,i+8))),element:l.slice(76,78).trim()||l.slice(12,16).trim().replace(/^\d+/,'')[0]}));}
 function parseBonds(text){const lines=text.split('\n'),i=lines.findIndex(l=>l.includes('!NBOND'));if(i<0)return[];const count=Number(lines[i].trim().split(/\s+/)[0]),numbers=[];for(let j=i+1;j<lines.length&&numbers.length<count*2;j++){if(lines[j].includes('!'))break;numbers.push(...lines[j].trim().split(/\s+/).filter(Boolean).map(Number));}return Array.from({length:count},(_,k)=>[numbers[k*2]-1,numbers[k*2+1]-1]);}
@@ -93,5 +104,5 @@ $('sample').oninput=()=>{pauseReplay();renderMeasurements();};
 document.addEventListener('visibilitychange',()=>{if(document.hidden)pauseReplay();});
 async function load(name){const response=await fetch(`files/${name}`);if(!response.ok)throw Error('Recorded example could not be loaded.');return response.text();}
 Promise.all(['source.pdb','protein.pdb','prepared.pdb','solvated.pdb','readiness.pdb','prepared.psf','psfgen.log','manifest.json','measurements.jsonl'].map(load)).then(([source,protein,prepared,solvated,final,psf,log,manifest,measurements])=>{
- metadata=JSON.parse(manifest);samples=measurements.trim().split('\n').map(JSON.parse);structures={source:parsePdb(source),protein:parsePdb(protein),prepared:parsePdb(prepared),solvated:parsePdb(solvated),final:parsePdb(final)};bonds=parseBonds(psf);$('log').textContent=log;$('loading').hidden=true;$('sample').max=samples.length-1;$('sample').value=samples.length-1;$('sample').disabled=$('replay').disabled=false;render();renderMeasurements();
-}).catch(error=>{$('loading').textContent=error.message;$('measurement-status').textContent=error.message;});
+ metadata=JSON.parse(manifest);samples=measurements.trim().split('\n').map(JSON.parse);structures={source:parsePdb(source),protein:parsePdb(protein),prepared:parsePdb(prepared),solvated:parsePdb(solvated),final:parsePdb(final)};bonds=parseBonds(psf);$('log').textContent=log;$('loading').hidden=true;$('guide-loading').textContent='';$('guide-start').disabled=false;$('sample').max=samples.length-1;$('sample').value=samples.length-1;$('sample').disabled=$('replay').disabled=false;render();renderMeasurements();
+}).catch(error=>{$('guide-loading').textContent=error.message;$('loading').textContent=error.message;$('measurement-status').textContent=error.message;});
