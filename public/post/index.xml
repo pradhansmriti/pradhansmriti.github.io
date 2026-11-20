@@ -10,9 +10,30 @@
 		
 		
 		
-			<lastBuildDate>Wed, 09 Sep 2026 18:43:29 -0700</lastBuildDate>
+			<lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Tutorial: Getting started with the Molecular Simulation Workspace</title>
+				<link>http://localhost:1313/post/2026/11/18/tutorial-getting-started-with-the-molecular-simulation-workspace/</link>
+				<pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/post/2026/11/18/tutorial-getting-started-with-the-molecular-simulation-workspace/</guid>
+				<description>&lt;!--&#xA;HOW TO USE THIS DRAFT&#xA;1. Replace the bracketed prompts with your own text and delete these instructions.&#xA;2. Put screenshots in static/images/simulation-tutorial/ and refer to them as&#xA;   /images/simulation-tutorial/your-image.png. Use descriptive alt text.&#xA;3. Copy a step and its image whenever you need another step. Remove unused sections.&#xA;4. Preview drafts with `hugo server -D`, then set draft: false when ready to publish.&#xA;The image below is the existing demo preview; replace it if you prefer another picture.&#xA;--&gt;&#xA;&lt;p&gt;When I started my PhD research I came with a heavy background in Physics, some computation experience (mostly in C) but my training had been in overwhelmingly in theoretical and statistical physics.&#xA;So when I started working on Viruses and specifically running molecular dynamics simulations on proteins saying I was a bit lost is an understatement.&#xA;It took me a few weeks just to even get up setup with VMD and preview the proteins I would be working with for the next 4 years (shoutout to 6UI7, 1QGT and 2G33).&#xA;It took me a few more weeks to understand MD simulations, get setup with NAMD, understand errors like &lt;em&gt;atoms moving too fast, simulation unstable&lt;/em&gt; and be able to visualize any kind of small fluctuation in protein structure.&#xA;With the help of LLMs this learning curve has probably become way easier for new grad students.&#xA;But what I wanted to use this simulation agent and MolScript is to be able to visualize these without even installing any softwares for the first time.&#xA;I think the first step to learning is seeing and trust me there is no joy like being able to visualize your protein fluctuating on a computer screen for the first time.&#xA;So this is just a guided tutorial for getting setup and started quickly for a quick preview of your protein of choice.This tutorial generally follows the steps mentioned in this NAMD tutorial.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>My notes on understanding protein-ligand binding</title>
+				<link>http://localhost:1313/post/2026/11/03/my-notes-on-understanding-protein-ligand-binding/</link>
+				<pubDate>Tue, 03 Nov 2026 18:43:29 -0700</pubDate>
+				<guid>http://localhost:1313/post/2026/11/03/my-notes-on-understanding-protein-ligand-binding/</guid>
+				<description>&lt;p&gt;This will be an ongoing blogpost or a series of blogs haven&amp;rsquo;t decidec yet where I add my notes/resources on understanding various machine learning methods used in predicting protein-ligand binding affinity. Why is  protein-ligand interaction important?&lt;/p&gt;&#xA;&lt;p&gt;Why am I interested, or how did I get interested?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Finding my written voice</title>
+				<link>http://localhost:1313/post/2026/10/27/finding-my-written-voice/</link>
+				<pubDate>Tue, 27 Oct 2026 18:43:29 -0700</pubDate>
+				<guid>http://localhost:1313/post/2026/10/27/finding-my-written-voice/</guid>
+				<description>&lt;p&gt;Writing for a non-native speaker can be difficult. While I’m very good at conversations and comprehension, writing in English feels unnatural to me. Writing and editing my thesis was one of the most challenging parts of my PhD.&lt;/p&gt;&#xA;&lt;p&gt;For the longest time, even when I could express my thoughts, grammar and spotting what sounded weird were difficult for me to recognize. Scientific writing sometimes came easily because I was supposed to follow certain structures, terminologies, and wording. But things did get lost in translation. Even with Grammarly double-checking everything, I felt like it was yet another restriction on writing regularly.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Understanding Navier Stokes and OpenAI from a physics grad perspective</title>
 				<link>http://localhost:1313/post/2026/09/09/understanding-navier-stokes-and-openai-from-a-physics-grad-perspective/</link>

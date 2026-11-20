@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>CHARMM on Smriti Pradhan</title>
+		<link>http://localhost:1313/tags/charmm/</link>
+		<description>Recent content in CHARMM on Smriti Pradhan</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/charmm/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Molecular Simulation Workspace</title>
+				<link>http://localhost:1313/projects/mol-vis-sim/</link>
+				<pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/mol-vis-sim/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/demos/mol-vis-sim/&#34;&gt;Explore the guided villin example →&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Inspect saved structures and replay real OpenMM measurements through the guided interface. The browser demo uses recorded results; &lt;a href=&#34;https://github.com/pradhansmriti/mol_vis_sim#run-locally&#34;&gt;run the full workspace locally&lt;/a&gt; to prepare and test your own structures.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

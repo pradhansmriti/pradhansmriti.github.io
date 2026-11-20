@@ -1,0 +1,111 @@
+{
+  "example": {
+    "id": "1VII",
+    "name": "Villin headpiece",
+    "residues": 36,
+    "source": "https://www.rcsb.org/structure/1VII"
+  },
+  "recorded_date": "2026-11-02",
+  "app_commit": "e695fbf",
+  "engine": {
+    "psfgen": "2.0",
+    "openmm": "8.6.1"
+  },
+  "settings": {
+    "solvent_model": "charmm_tip3p",
+    "solvent_label": "Explicit CHARMM-modified TIP3P",
+    "salt_molar": 0.0,
+    "padding_nm": 1.0,
+    "temperature_k": 300.0,
+    "nonbonded_method": "PME",
+    "periodic": true,
+    "add_ions": false,
+    "neutralize": false,
+    "nonbonded_cutoff_nm": 1.2,
+    "switch_distance_nm": 1.0,
+    "timestep_fs": 2.0
+  },
+  "box": {
+    "water_molecules": 2816,
+    "added_ions": 0,
+    "neutralize": false,
+    "ionic_strength_molar": 0,
+    "box_shape": "cube",
+    "box_vectors_nm": [
+      [
+        4.529973951745253,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.529973951745253,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.529973951745253
+      ]
+    ],
+    "solute_atoms": 596,
+    "solute_preserved": true,
+    "psfgen_engine": {
+      "name": "standalone psfgen",
+      "version": "2.0"
+    },
+    "center_angstrom": [
+      0.11249999999999982,
+      0.7534999999999998,
+      1.0180000000000007
+    ]
+  },
+  "net_charge_e": 2.0000000000000004,
+  "preparation": {
+    "options": {
+      "histidine": "HSE",
+      "first": "NTER",
+      "last": "CTER",
+      "hydrogens": "rebuild"
+    },
+    "hydrogens_removed": 301,
+    "atom_count": 596
+  },
+  "readiness": {
+    "passed": true,
+    "minimization_max_iterations": 20,
+    "dynamics_steps": 100,
+    "timestep_fs": 2.0,
+    "duration_ps": 0.2,
+    "final_potential_energy_kj_mol": -110748.76381143306,
+    "ensemble": "NVT",
+    "seed": 2026,
+    "friction_per_ps": 1,
+    "note": "Bounded execution smoke test, not equilibration or production validation."
+  },
+  "force_field": {
+    "protein_topology": "top_all36_prot.rtf",
+    "protein_parameters": "par_all36m_prot.prm",
+    "water_definitions": "toppar_water_ions.str",
+    "files_bundled": false
+  },
+  "measurement_count": 112,
+  "simulation_ready": false,
+  "notes": [
+    "Recorded OpenMM results replayed in the browser; no computation or uploads are sent to a simulation backend.",
+    "100 steps at 2 fs = 0.2 ps. This short run is not equilibrated.",
+    "No Na+, Cl- or neutralization ions were added. Solute net charge remains +2 e."
+  ],
+  "files": {
+    "prepared.psf": "676b775637a0149e72e8d3bc10d25849d3cbf2f3809dbe9acafa451e050c4d05",
+    "psfgen.log": "a4bccd9c2dfaa2bf77e6c3bb9c9b496926c2af242ef8f4702937a8e1472baf55",
+    "solvated.pdb": "a38497246af9d276373c8a91556b7c9557aa780cb89fd6fa0e4cd8068e9f19bd",
+    "prepared.pdb": "c4477a9302a5ab5deac867bd479dc6bedb1e9dfc47ad8b32c90c31d33fa0c6e7",
+    "solvated.psf": "5e0f89308085f2ef62e7ae520d2d4198db8a1e40310e9725223afa076f6f06a1",
+    "source.pdb": "ebecd3d6c0dd9c8b34bcbea9b57c73e4f73986cc674150f0aaa0687db66e77ef",
+    "measurements.jsonl": "c43365b665cf048100fcdc6a3e7ecf34cd0513667f47d55dbecf60a7086e9d5e",
+    "measurements.csv": "f6c50e0aa3b9dbc6c9e67e9d37c47beeb53c74958b51756fe7dfd2ec0e8ea81e",
+    "protein.pdb": "cc383139d2b2e3a67eaa46a5495fd4571a87c4003b2efd5f8eb0a96b5c715a56",
+    "readiness.pdb": "4da7af1c8a89f9cf01c629b7ee4b98bf395996dc70ada0d4ab9c7978fc5ef043"
+  }
+}

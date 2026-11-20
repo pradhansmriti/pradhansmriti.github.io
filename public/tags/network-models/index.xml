@@ -10,11 +10,13 @@
 		
 		
 		
+			<lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
 			<atom:link href="http://localhost:1313/tags/network-models/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Elastic Network Model for HBV Assembly</title>
 				<link>http://localhost:1313/projects/hbv-elastic-network/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/projects/hbv-elastic-network/</guid>
 				<description>&lt;h2 id=&#34;the-question&#34;&gt;The question&lt;/h2&gt;&#xA;&lt;p&gt;How can we study the mechanics of viral assembly without tracking every atom? My work uses a coarse-grained elastic network model to represent the interactions and flexibility of Hepatitis B virus proteins.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-approach&#34;&gt;My approach&lt;/h2&gt;&#xA;&lt;p&gt;I developed the model using OpenMM and NAMD, with parameters learned from all-atom simulation data. The goal is to retain the structural and dynamical behavior relevant to assembly while making larger-scale simulations more tractable.&lt;/p&gt;</description>
 			</item>

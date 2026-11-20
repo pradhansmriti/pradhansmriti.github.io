@@ -10,27 +10,43 @@
 		
 		
 		
+			<lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate>
+		
 			<atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>AgenticVMD</title>
 				<link>http://localhost:1313/projects/agentic-vmd/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/projects/agentic-vmd/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A natural language interface for &lt;a href=&#34;https://www.ks.uiuc.edu/Research/vmd/&#34;&gt;VMD (Visual Molecular Dynamics)&lt;/a&gt;. Provide a PDB file or RCSB PDB ID, describe a visualization in plain English, and get a rendered image.&lt;/p&gt;&#xA;&lt;p&gt;VMD is a powerful tool for visualizing and analyzing molecular structures, but generating the Tcl scripts it requires can be a steep barrier as it is not a common scripting language even among computational scientists. AgenticVMD removes that barrier by letting users describe what they want to see and handling the translation automatically and you can also edit the TCL script and use it yourself.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Binding Affinity ML</title>
 				<link>http://localhost:1313/projects/binding-affinity-ml/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/projects/binding-affinity-ml/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;One of the most important — and expensive — questions in drug discovery is: &lt;em&gt;does this molecule actually stick to its target?&lt;/em&gt; When a drug works, a small molecule fits snugly into a protein and disrupts or activates it. The strength of that fit is called &lt;strong&gt;binding affinity&lt;/strong&gt;, measured as pKd — the higher the number, the tighter the grip.&lt;/p&gt;&#xA;&lt;p&gt;Running experiments to measure binding affinity for thousands of drug candidates is slow and costly. This project explores how well a machine learning model can predict it directly from the 3D structure of a protein–ligand complex.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Elastic Network Model for HBV Assembly</title>
 				<link>http://localhost:1313/projects/hbv-elastic-network/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/projects/hbv-elastic-network/</guid>
 				<description>&lt;h2 id=&#34;the-question&#34;&gt;The question&lt;/h2&gt;&#xA;&lt;p&gt;How can we study the mechanics of viral assembly without tracking every atom? My work uses a coarse-grained elastic network model to represent the interactions and flexibility of Hepatitis B virus proteins.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-approach&#34;&gt;My approach&lt;/h2&gt;&#xA;&lt;p&gt;I developed the model using OpenMM and NAMD, with parameters learned from all-atom simulation data. The goal is to retain the structural and dynamical behavior relevant to assembly while making larger-scale simulations more tractable.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Tutorial: Getting started with the Molecular Simulation Workspace</title>
+				<link>http://localhost:1313/post/2026/11/18/tutorial-getting-started-with-the-molecular-simulation-workspace/</link>
+				<pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/post/2026/11/18/tutorial-getting-started-with-the-molecular-simulation-workspace/</guid>
+				<description>&lt;!--&#xA;HOW TO USE THIS DRAFT&#xA;1. Replace the bracketed prompts with your own text and delete these instructions.&#xA;2. Put screenshots in static/images/simulation-tutorial/ and refer to them as&#xA;   /images/simulation-tutorial/your-image.png. Use descriptive alt text.&#xA;3. Copy a step and its image whenever you need another step. Remove unused sections.&#xA;4. Preview drafts with `hugo server -D`, then set draft: false when ready to publish.&#xA;The image below is the existing demo preview; replace it if you prefer another picture.&#xA;--&gt;&#xA;&lt;p&gt;When I started my PhD research I came with a heavy background in Physics, some computation experience (mostly in C) but my training had been in overwhelmingly in theoretical and statistical physics. So when I started working on Viruses and specifically running molecular dynamics simulations on proteins saying I was a bit lost is an understatement. It took me a few weeks just to even get up setup with VMD and preview the proteins I would be working with for the next 4 years (shoutout to 6UI7, 1QGT and 2G33). It took me a few more weeks to understand MD simulations, get setup with NAMD, understand errors like &lt;strong&gt;atoms moving too fast, simulation unstable&lt;/strong&gt; and be able to visualize any kind of small fluctuation in protein structure. With the help of LLMs this learning curve has probably become way easier for new grad students. But what I wanted to use this simulation agent and MolScript is to be able to visualize these without even installing any softwares for the first time. I think the first step to learning is seeing and trust me there is no joy like being able to visualize your protein fluctuating on a computer screen for the first time. So this is just a guided tutorial for getting setup and started quickly for a quick preview of your protein of choice.This tutorial generally follows the steps mentioned in this NAMD tutorial.&#xA;&lt;img src=&#34;http://localhost:1313/demos/mol-vis-sim/platform-preview.jpg&#34; alt=&#34;Preview of the Molecular Simulation Workspace interface&#34;&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Molecular Simulation Workspace</title>
+				<link>http://localhost:1313/projects/mol-vis-sim/</link>
+				<pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/mol-vis-sim/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/demos/mol-vis-sim/&#34;&gt;Explore the guided villin example →&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Inspect saved structures and replay real OpenMM measurements through the guided interface. The browser demo uses recorded results; &lt;a href=&#34;https://github.com/pradhansmriti/mol_vis_sim#run-locally&#34;&gt;run the full workspace locally&lt;/a&gt; to prepare and test your own structures.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

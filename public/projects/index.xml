@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -40,6 +40,13 @@
 				<pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/projects/hbv-elastic-network/</guid>
 				<description>&lt;h2 id=&#34;the-question&#34;&gt;The question&lt;/h2&gt;&#xA;&lt;p&gt;How can we study the mechanics of viral assembly without tracking every atom? My work uses a coarse-grained elastic network model to represent the interactions and flexibility of Hepatitis B virus proteins.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-approach&#34;&gt;My approach&lt;/h2&gt;&#xA;&lt;p&gt;I developed the model using OpenMM and NAMD, with parameters learned from all-atom simulation data. The goal is to retain the structural and dynamical behavior relevant to assembly while making larger-scale simulations more tractable.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Molecular Simulation Workspace</title>
+				<link>http://localhost:1313/projects/mol-vis-sim/</link>
+				<pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/mol-vis-sim/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/demos/mol-vis-sim/&#34;&gt;Explore the guided villin example →&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Inspect saved structures and replay real OpenMM measurements through the guided interface. The browser demo uses recorded results; &lt;a href=&#34;https://github.com/pradhansmriti/mol_vis_sim#run-locally&#34;&gt;run the full workspace locally&lt;/a&gt; to prepare and test your own structures.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

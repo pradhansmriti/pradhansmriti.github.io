@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tutorial: Getting started with the Molecular Simulation Workspace | Smriti Pradhan</title>
+  <meta name="description" content="A step-by-step guide to exploring and running a molecular simulation.">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-header-figure">
+    <a href="/" aria-label="Smriti Pradhan — Home"><img src="/images/fights_virus.png" alt="" width="88" height="88"><span class="site-name">Smriti Pradhan</span></a>
+  </div>
+  <nav aria-label="Main navigation">
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/projects/">Projects</a></li>
+      
+      <li><a href="/resume/">Experience</a></li>
+      
+      <li><a href="/post/">Writing</a></li>
+      
+    </ul>
+    <hr>
+  </nav>
+
+<main id="main-content">
+<!--
+HOW TO USE THIS DRAFT
+1. Replace the bracketed prompts with your own text and delete these instructions.
+2. Put screenshots in static/images/simulation-tutorial/ and refer to them as
+   /images/simulation-tutorial/your-image.png. Use descriptive alt text.
+3. Copy a step and its image whenever you need another step. Remove unused sections.
+4. Preview drafts with `hugo server -D`, then set draft: false when ready to publish.
+The image below is the existing demo preview; replace it if you prefer another picture.
+-->
+<p>When I started my PhD research I came with a heavy background in Physics, some computation experience (mostly in C) but my training had been in overwhelmingly in theoretical and statistical physics.
+So when I started working on Viruses and specifically running molecular dynamics simulations on proteins saying I was a bit lost is an understatement.
+It took me a few weeks just to even get up setup with VMD and preview the proteins I would be working with for the next 4 years (shoutout to 6UI7, 1QGT and 2G33).
+It took me a few more weeks to understand MD simulations, get setup with NAMD, understand errors like <em>atoms moving too fast, simulation unstable</em> and be able to visualize any kind of small fluctuation in protein structure.
+With the help of LLMs this learning curve has probably become way easier for new grad students.
+But what I wanted to use this simulation agent and MolScript is to be able to visualize these without even installing any softwares for the first time.
+I think the first step to learning is seeing and trust me there is no joy like being able to visualize your protein fluctuating on a computer screen for the first time.
+So this is just a guided tutorial for getting setup and started quickly for a quick preview of your protein of choice.This tutorial generally follows the steps mentioned in this NAMD tutorial.</p>
+<h2 id="step-1-defining-the-simulation-goal">Step 1: Defining the simulation goal</h2>
+<p>The first step is deciding what we want to simulate, what kind of solvent, what temperature and for how long? This is also something we can change along the way.</p>
+<p><img src="/images/mol_sim_tutorial/s1.png" alt="Preview of the Molecular Simulation Workspace interface">
+<em>Decisions, Decisions</em></p>
+<h2 id="step-2-uploading-protein-refining-protein">Step 2: Uploading protein, refining protein</h2>
+<p>The <a href="/demos/mol-vis-sim/">guided browser demo</a> replays recorded results. To work with your own structures, see the <a href="https://github.com/pradhansmriti/mol_vis_sim#run-locally">local workspace instructions</a>.</p>
+<p><a href="/projects/mol-vis-sim/">Explore the project</a> · <a href="https://github.com/pradhansmriti/mol_vis_sim">View the source code</a></p>
+
+
+
+
+    
+<div id="comments" class="comments-section">
+    <h3>Comments</h3>
+    <script src="https://giscus.app/client.js"
+        data-repo="pradhansmriti/pradhansmriti.github.io"
+        data-repo-id="R_kgDOLe_jGA"
+        data-category="General"
+        data-category-id=""
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+    </script>
+</div>
+
+<style>
+.comments-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.comments-section h3 {
+    margin-bottom: 1rem;
+    color: #e0e0e0;
+    font-size: 1.2rem;
+}
+</style>
+
+
+
+</main>
+
+  <footer>
+  <div class="footer-content">
+<p>Smriti Pradhan <span>· Physics, code, and curiosity.</span></p>
+<div class="footer-links"><a href="mailto:smritipradhan98@gmail.com">Email</a><a href="https://linkedin.com/in/pradhan-smriti">LinkedIn</a><a href="https://github.com/pradhansmriti">GitHub</a></div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous" onload="renderMathInElement(document.querySelector('main'), {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false});"></script>
+
+
+  
+  </footer>
+  </body>
+</html>
+
