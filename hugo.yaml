@@ -25,6 +25,9 @@ menu:
     - name: Experience
       url: "resume/"
       weight: 4
+    - name: Research Log
+      url: "research-log/"
+      weight: 6
     #- name: Foraging
      # url: "links/"
 params:
