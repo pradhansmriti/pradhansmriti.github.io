@@ -1,13 +1,13 @@
 ---
 title: "Smriti Pradhan"
 description: "Computational scientist working at the intersection of physics, biological simulation, and machine learning."
-lastmod: 2026-10-10
+lastmod: 2026-11-25
 ---
 <div class="home-hero">
 <p class="eyebrow">Physics · Computation · Biology · Machine learning</p>
-<h1>Hi, I'm Smriti.<br>I use code to understand complex systems.</h1>
-<p class="hero-intro">I'm a computational scientist who completed a Physics PhD in August 2026. I study how viral proteins assemble, build models that make molecular simulations more tractable, and explore machine learning tools for scientific work.</p>
-<p>What connects my work is a question: how much complexity do we need to keep to understand what matters?</p>
+<h1>Hi, I'm Smriti.<br></h1>
+<p class="hero-intro">I'm a computational scientist who completed a Physics PhD in August 2026. I study how complex systems work by building physics based models that are computationally accessible and use machine learning methods and scientific computing to accelerate these simulations. Some complex systems I have worked in the past include virus assembly, behavior in ant colonies, hopfield networks etc. </p>
+
 <div class="action-links"><a class="button primary" href="/projects/">Explore my work →</a><a class="button" href="mailto:smritipradhan98@gmail.com">Get in touch</a></div>
 </div>
 
